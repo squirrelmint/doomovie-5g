@@ -628,7 +628,7 @@
     </div>
   </div>
 <?php } ?>
-</div> -->
+</div> 
 
 <!-- <div id="movie-detail">
         <div class="movie-card-detail">
@@ -692,7 +692,7 @@
       </div> -->
 
 <!-- </div>
-  </div> --> -->
+  </div> -->
 
 
 

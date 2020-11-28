@@ -194,7 +194,14 @@
     width: 100%;
     padding-left: 57px;
   }
-
+  .slider-text-top{
+    font-size: 20px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(22%, 50%);
+    top: -400px;
+    width: 40%;
+  }
   @media only screen and (max-width: 600px) {
     .fa-style {
       display: none;
@@ -215,7 +222,7 @@
       width: auto;
       min-width: 100%;
       height: 100%;
-      transform: translate(-5%, 15%);
+      transform: translate(-0%, 30%);
     }
 
     .slider-text {

@@ -97,6 +97,8 @@ ul.list-movie>li {
 
     padding-left: 2px;
 }
+.movie-content {
+    display: none;
   }
 </style>
 
