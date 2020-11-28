@@ -1,112 +1,6 @@
-<style>
-  .content-size {
-    position: relative;
-    transform: translate(50%);
-    left: -495px;
-    width: 95%;
-
-  }
-
-  .border-size {
-    background: #f22536;
-    border-radius: 20px 20px 0px 0px;
-    width: 95%;
-    position: relative;
-    transform: translate(50%);
-    left: -495px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    line-height: 75px;
-    padding-right: 40px;
-    padding-left: 40px;
-
-  }
-
-  .border-size-font {
-    font-size: 34px;
-    color: white;
-  }
-
-  .border-size-font-all {
-    font-size: 24px;
-    color: white;
-  }
-
-  ul.list-movie>li div.title-in {
-    position: relative;
-    width: 187px;
-
-    /* height: max-content; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    bottom: 0;
-    background-color: #02a6cc;
-    border-radius: 0px 0px 10px 10px;
-    margin-bottom: 20px;
-  }
-
-  ul.list-movie>li {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    padding-left: 10px;
-  }
-
-  ul.list-movie {
-    background: #ffff;
-
-    padding-top: 20px;
-    border-radius: 0px 0px 20px 20px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-
-  ul.list-movie>li .movie-box a img {
-    border-radius: 10px;
-  }
-
-  ul.list-movie>li .movie-box .movie-sound {
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .border-size {
-      transform: translate(0%);
-      left: 0px;
-      height: max-content;
-      width: 100%;
-    }
-
-    .border-size-font {
-      font-size: 16px;
-    }
-
-    .border-size-font-all {
-      font-size: 15px;
-    }
-    .content-size {
-
-    transform: translate(0%); 
-     left: -0px;
-     width: 100%;
-}
-ul.list-movie>li {
-
-    padding-left: 2px;
-}
-.movie-content {
-    display: none;
-  }
-</style>
-
-
-
 <section class="movie-content text-center">
-  <div class="container">
-    <div class="row">
+  <div id="Home" class="container">
+    <div  class="row">
       <div class="col-md-12 col-lg-12 ">
         <h1>DOOMOVIE-5G</h1>
         <h2>หนังใหม่ ดูหนังออนไลน์ ครบเรื่องทุกรสที่ DOOMOVIE-5G</h2>
@@ -116,8 +10,8 @@ ul.list-movie>li {
 </section>
 
 <!-- Icons Grid -->
-<section class="text-center">
-  <div class="container">
+<section id="Home" class="text-center">
+  <div id="Home" class="container">
     <div class="border-size">
       <div class="border-size-font">ดูหนังออนไลน์</div>
       <div class=""></div>
@@ -212,7 +106,7 @@ ul.list-movie>li {
     </div>
   </div>
 
-  <div class="container">
+  <div id="Home" class="container">
     <div class="border-size">
       <div class="border-size-font">ดูหนัง 4K</div>
       <div class=""></div>
@@ -307,7 +201,7 @@ ul.list-movie>li {
     </div>
   </div>
 
-  <div class="container">
+  <div id="Home" class="container">
     <div class="border-size">
       <div class="border-size-font">ดูหนังชนโรง</div>
       <div class=""></div>
@@ -402,7 +296,7 @@ ul.list-movie>li {
     </div>
   </div>
 
-  <div class="container">
+  <div id="Home" class="container">
     <div class="border-size">
       <div class="border-size-font">Netflix</div>
       <div class=""></div>

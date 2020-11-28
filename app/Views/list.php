@@ -1,22 +1,7 @@
-<style>
-  ul.list-movie {
-    padding: 10px;
-    background: transparent;
-}
-ul.list-movie > li {
-    padding-left: 15px;
-}
-ul.list-movie > li .movie-box a img {
-    border-radius: 10px;
-}
-ul.list-movie > li .movie-box .movie-view {
 
-    border-top-left-radius: 20px;
-}
-  </style>
 <!-- Icons Grid -->
 <section class="text-center">
-  <div class="container">
+  <div id="TOP"class="container">
     <div id="movie-list" class="row">
       <div class="movie-title-list">
         <!-- <?php

@@ -1,42 +1,7 @@
-  <style>
-    .cat-font {
-      color: white;
-      width: 100%;
 
-      position: relative;
-      display: flex;
-      justify-content: space-evenly;
-      transform: translateX(-5%);
-      font-size: 40px;
-    }
-
-    .cat-type {
-      transform: translateX(-75px);
-    }
-
-    @media only screen and (max-width: 600px) {
-      .cat-type {
-        transform: translateX(-30px);
-      }
-
-      .cat-font {
-        transform: translateX(0%);
-        font-size: 23px;
-      }
-
-      ul.movie-category {
-        -webkit-columns: 1;
-
-      }
-      ul.movie-category {
-        transform: translateX(20%);
-      }
-
-    }
-  </style>
   <!-- Icons Grid -->
   <section>
-    <div class="container">
+    <div  id ="CAT"class="container">
       <div class="cat-font">
         <div class="">หมวดหมู่ </div>
         <div class="cat-type"> ประเภทหนัง</div>

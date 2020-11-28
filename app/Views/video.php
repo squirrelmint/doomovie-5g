@@ -1,261 +1,33 @@
-<style>
-  #movie-player {
-    width: 100%;
-    min-height: 0px;
-    margin-top: 1rem;
-  }
-
-  .movie-score {
-    color: white;
-    padding: 20px;
-    text-align: left;
-  }
-
-  .cat-type {
-    color: white;
-    text-align: left;
-  }
-
-  a:not([href]) {
-    color: #f22536;
-    text-decoration: none;
-  }
-
-  #movie-player .movie-header {
-    display: flex;
-    padding: 10px;
-    width: 117%;
-  }
-
-  #movie-video #movie-detail .movie-card-detail {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0rem;
-  }
-
-  .movie-btn-report {
-    color: #fff;
-    background-color: #f22536;
-    border-radius: 10px;
-    border: none;
-    height: 40px;
-  }
-
-  .movie-btn-report:hover {
-    color: #f22536;
-    background-color: white;
-  }
-
-  #movie-detail {
-    justify-content: center;
-  }
-
-  .movie-social {
-
-    text-align: left;
-    display: flex;
-    justify-content: space-evenly;
-    transform: translateX(-7%);
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 36%;
-    overflow: auto;
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown a:hover {
-    background-color: #ddd;
-  }
-
-  .show {
-    display: block;
-  }
-
-  .share-size {
-
-    width: 50px;
-    height: 45px;
-
-    color: #f22536;
-    font-size: 35px;
-    padding: 6px 13px 0px 9px;
-  }
-
-  #video.fa-twitter {
-    background: #35cbfe;
-    color: white;
-    width: 40px;
-    height: 40px;
-  }
-
-  #video.fa-facebook {
-    background: #3c5a98;
-    color: white;
-    width: 40px;
-    height: 40px;
-  }
-
-  #video.fa-stack-2x {
-    line-height: 30px;
-    font-size: 2em;
-    color: green;
-  }
-
-  #video.fab,
-  .far {
-    line-height: 30px;
-    font-size: 30px;
-    color: white;
-  }
-
-  .vl {
-    border-right: 3px solid red;
-    height: 54px;
-  }
-
-  ul.list-movie {
-    background-color: #f14455;
-    margin-top: 0rem;
-  }
-
-  ul.list-movie>li {
-    margin: 5px;
-
-  }
-
-  .movie-title-list {
-
-    background-color: #f22536;
-    width: 83%;
-    transform: translateX(10%);
-    border-radius: 30px 30px 0px 0px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .detail-size {
-    width: 500px;
-  }
-
-  .movie-detail-all {
-    margin: 0px 170px 0px 100px;
-  }
-  .player-size{
-    width: 1000px;
-    height: 600px;
-  }
-  .display-style-PC{
-    display: none;
-  }
-  .style-share{
-  background-color: white;
-    border-radius: 25px 0px 0px 25px;
-    transform: translateX(50%);
-}
-.report-size{
-  transform: translateX(180%);
-}
-  @media only screen and (max-width: 600px) {
-    .detail-size {
-      width: 100%;
-      text-align: center;
-      padding: 0px 10px 0px 10px;
-    }
-    #movie-video #movie-detail .movie-card-detail .movie-title {
-      font-size: 28px;
-
-    }
-    .movie-score {
-      text-align: center;
-      padding: 8px;
-
-    }
-    .movie-detail-all {
-      margin: 0px 0px 0px 0px;
-    }
-    #movie-video #movie-detail .movie-card-detail .movie-title {
-      font-size: 28px;
-      text-align: center;
-    }
-    #movie-video #movie-detail .movie-card-detail .movie-description p {
-      text-align: center;
-    }
-    #movie-player .movie-header {
-      display: flex;
-      padding: 10px;
-      width: 100%;
-    }
-    .player-size{
-    width: 100%;
-    height: 300px;
-  }
-  .display-style-MB{
-    display: none;
-  }
-  
-  .display-style-PC{
-    display: block;
-  }
-.style-share{
-  background-color: white;
-  border-radius: 0px 25px 25px 0px;
-    transform: translateX(0%);
-    width: 208px;
-}
-.report-size{
-  transform: translateX(0%);
-}
-
-  }
-
-
-</style>
 
 <section id="movie-banners" class="text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-12 ">
-        <?php
-        if (!empty($adstop)) {
-          foreach ($adstop as $ads) {
-            if (substr($ads['ads_picture'], 0, 4) == 'http') {
-              $ads_picture = $ads['ads_picture'];
-            } else {
-              $ads_picture = $path_ads . $ads['ads_picture'];
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 ">
+          <?php
+          if (!empty($adstop)) {
+            foreach ($adstop as $ads) {
+              if (substr($ads['ads_picture'], 0, 4) == 'http') {
+                $ads_picture = $ads['ads_picture'];
+              } else {
+                $ads_picture = $path_ads . $ads['ads_picture'];
+              }
+          ?>
+              <a href="<?= $ads['ads_url'] ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
+                <img class="banners" src="<?= $ads_picture ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
+              </a>
+          <?php
             }
-        ?>
-            <a href="<?= $ads['ads_url'] ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
-              <img class="banners" src="<?= $ads_picture ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
-            </a>
-        <?php
           }
-        }
-        ?>
+          ?>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
 <!-- Icons Grid -->
 <section id="movie-video" class="text-center">
-  <div class="movie-detail-all">
+  <div id="VIDEO" class="movie-detail-all">
     <div id="movie-detail">
 
       <div class="detail-size">
@@ -279,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div id="VIDEO" class="container">
         <div class="row">
           <div id="movie-player">
             <div class="movie-header">
@@ -293,7 +65,7 @@
       </div>
     </div>
   </div>
-  <div class="movie-box">
+  <div id="VIDEO" class="movie-box">
 
     <div class="movie-social">
       <div class="dropdown">
@@ -308,8 +80,8 @@
         <button class="movie-btn-report">พากย์ไทย</button>
         <button class="movie-btn-report">Soundtrack 5.1</button>
       </div>
-      <button class="movie-btn-report display-style-MB report-size" onclick="get_Report()" >แจ้งหนังเสีย</button>
-      <div class=" display-style-MB style-share" >
+      <button class="movie-btn-report display-style-MB report-size" onclick="get_Report()">แจ้งหนังเสีย</button>
+      <div class=" display-style-MB style-share">
         <a href="#" id="video" class="fas fa-share-alt share-size vl"></a>
         <a></a>
         <a href="#" id="video" class="fa fa-twitter sa"></a>
@@ -328,57 +100,34 @@
 
   </div>
   </div>
-  <div class="size-video" style="width: 100%;
+  <div id="VIDEO" class="size-video" style="width: 100%;
     height: 100%;">
     <iframe id="player" class="player-size" class="player" src="http://localhost:1002/player/20033/a" scrolling="no" frameborder="0" allowfullscreen="yes"></iframe>
     <!-- สำหรับ series -->
   </div>
-
-  <button class="movie-btn-report display-style-PC" onclick="get_Report()" style="position: absolute;
+  <div id="VIDEO">
+  <button id="VIDEO" class="movie-btn-report display-style-PC" onclick="get_Report()" style="position: absolute;
     transform: translateX(325%);">แจ้งหนังเสีย</button>
-      <div class="display-style-PC style-share">
-        <a href="#" id="video" class="fas fa-share-alt share-size vl"></a>
-        <a></a>
-        <a href="#" id="video" class="fa fa-twitter sa"></a>
-        <a href="#" id="video" class="fa fa-facebook sa"></a>
+  <div id="VIDEO" class="display-style-PC style-share">
+    <a href="#" id="video" class="fas fa-share-alt share-size vl"></a>
+    <a></a>
+    <a href="#" id="video" class="fa fa-twitter sa"></a>
+    <a href="#" id="video" class="fa fa-facebook sa"></a>
 
-        <span a="" id="video" href="#" class="fa-stack fa-lg sa">
-          <i a="" id="video" href="#" class="fas fa-circle fa-stack-2x"></i>
-          <i a="" id="video" href="#" class="fab fa-line fa-stack-1x fa-inverse"></i>
-        </span>
+    <span a="" id="video" href="#" class="fa-stack fa-lg sa">
+      <i a="" id="video" href="#" class="fas fa-circle fa-stack-2x"></i>
+      <i a="" id="video" href="#" class="fab fa-line fa-stack-1x fa-inverse"></i>
+    </span>
 
-      </div>
-    </div>
-
-</section>
-
-<section id="movie-banners" class="text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-12 ">
-        <?php
-        if (!empty($adsbottom)) {
-          foreach ($adsbottom as $ads) {
-            if (substr($ads['ads_picture'], 0, 4) == 'http') {
-              $ads_picture = $ads['ads_picture'];
-            } else {
-              $ads_picture = $path_ads . $ads['ads_picture'];
-            }
-        ?>
-            <a href="<?= $ads['ads_url'] ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
-              <img class="banners" src="<?= $ads_picture ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
-            </a>
-        <?php
-          }
-        }
-        ?>
-      </div>
-    </div>
   </div>
+  </div>
+  </div>
+
 </section>
+
 
 <section id="movie-footer" class="text-center">
-  <div class="container">
+  <div id="VIDEO" class="container">
     <div class="row">
       <div class="movie-title-list">
         <h1>แนะนำหนังใหม่</h1>
@@ -628,7 +377,7 @@
     </div>
   </div>
 <?php } ?>
-</div> 
+</div>
 
 <!-- <div id="movie-detail">
         <div class="movie-card-detail">
