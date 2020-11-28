@@ -145,7 +145,9 @@ a:focus {
 }
 
 section {
-  background-color: #191919;
+  width: 100%;
+  height: 100%;
+  background: url(../img/Doomovie-5G-BG.jpg) no-repeat center center;
   padding-top: 20px;
 }
 
@@ -159,19 +161,28 @@ section {
 }
 
 #movie-menu {
+  height: 120px;
   width: 100%;
-  background: linear-gradient(to bottom, #000000, transparent);
+  /* background: linear-gradient(to bottom, #000000, transparent); */
+  background: url('../img/bg-masthead.jpg') no-repeat center center;
   position: absolute;
   z-index: 2;
+  border-bottom: 5px solid red;
 }
 
 img.logo {
-  height: 55px;
+  height: 59px;
+  width: 192px;
+  background: url(../img/LOGO-doomovie-5G.png) no-repeat center center;
+
 }
+
+ 
+
 
 #movie-menu .navbar-nav .nav-link {
   text-transform: uppercase;
-  color: #9c9c9c;
+  color: #ffff;
 }
 
 #movie-menu .navbar-nav .active>.nav-link{
@@ -209,9 +220,10 @@ img.logo {
 
 .movie-search {
   width: 41px;
-  background: transparent;
-  border: #7b7b7b solid 1px;
-  color: #fff;
+  background: #fff;
+  border: #fff solid 1px;
+  border-radius: 5px;
+  color: #000;
   font-size: 16px;
   padding: 5px 15px;
   outline: none;
@@ -264,8 +276,9 @@ img.logo {
   position: absolute;
   right: 4px;
   top: 2px;
-  background: #000;
+  background: #fff;
   outline: none;
+  color: black;
 }
 
 #movie-formsearch .movie-search:focus ~ .movie-search-button {
@@ -279,7 +292,7 @@ img.logo {
 }
 
 #movie-formsearch .movie-search-button i {
-  color: #ffffff;
+  color: black;
 }
 
 @media (min-width: 321px) and (max-width: 1024px) {
@@ -619,7 +632,7 @@ ul.list-movie {
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
-  background: #353535;
+  background: #ffff;
 }
 
 ul.list-movie > li {
@@ -705,11 +718,14 @@ ul.list-movie > li .movie-box .movie-sound {
 ul.list-movie > li div.title-in {
   position: relative;
   width: 190px;
-  height: max-content;
+  height: 100%;
+
   padding-top: 10px;
   padding-bottom: 10px;
   bottom: 0;
-  background-color: transparent;
+  background-color: #02a6cc;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 20px;
 }
 
 ul.list-movie > li div.title-in h2 {
@@ -1693,3 +1709,4 @@ ul.movie-category {
 #movie-contract .movie-btnrequest:hover {
   transform: scale(1.1);
 }
+

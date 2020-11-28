@@ -1,0 +1,87 @@
+CRITICAL - 2020-11-24 00:34:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('9667')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 00:35:10 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(202): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(284): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-24 00:36:23 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(202): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(284): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-24 00:47:05 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20018')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 01:07:25 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20016')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 01:07:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20017')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 04:16:57 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(202): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(284): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-24 23:25:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('9936')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 23:26:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('12327')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
