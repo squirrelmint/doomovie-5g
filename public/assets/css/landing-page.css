@@ -166,7 +166,7 @@ section {
   height: 120px;
   width: 100%;
   /* background: linear-gradient(to bottom, #000000, transparent); */
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/Doomovie-5G-banner.jpg') no-repeat center center;
   position: absolute;
   z-index: 2;
   border-bottom: 5px solid red;
@@ -356,7 +356,14 @@ img.logo {
 }
 
 #HomeSlide .swiper-button-next::after, .swiper-button-prev::after {
+  line-height: 50px;
   font-size: 30px;
+  font-weight: bold;
+  color: red;
+  background-color: #6c6d71;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
 
 #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
@@ -598,8 +605,12 @@ img.logo {
 @media (max-width: 320px) {
 
   .movie-content h2 {
+    display: none;
     font-size: 26px;
   }
+  .movie-content {
+    display: none;
+}
 
 }
 
@@ -683,8 +694,8 @@ ul.list-movie > li .movie-box .movie-view {
   position: absolute;
   left: 0;
   padding: 0 8px;
-  color: #333333;
-  background: #fff;
+  color: white;
+  background: black;
   font-weight: 700;
   border-bottom-right-radius: 50px;
 }
@@ -1782,7 +1793,7 @@ ul.movie-category {
 }
 
 #VIDEO a:not([href]) {
-  color: #f22536;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -1868,6 +1879,13 @@ ul.movie-category {
   color: white;
   width: 40px;
   height: 40px;
+  font-size: 23px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: 10px;
 }
 
 #VIDEO #video.fa-facebook {
@@ -1875,6 +1893,13 @@ ul.movie-category {
   color: white;
   width: 40px;
   height: 40px;
+  font-size: 23px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: 10px;
 }
 
 #VIDEO #video.fa-stack-2x {
@@ -2008,8 +2033,8 @@ ul.movie-category {
 /* HOME */
 #Home .content-size {
   position: relative;
-  transform: translate(50%);
-  left: -495px;
+  /* transform: translate(50%);
+  left: -495px; */
   width: 95%;
 
 }
@@ -2019,8 +2044,8 @@ ul.movie-category {
   border-radius: 20px 20px 0px 0px;
   width: 95%;
   position: relative;
-  transform: translate(50%);
-  left: -495px;
+  /* transform: translate(50%);
+  left: -495px; */
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -2042,7 +2067,6 @@ ul.movie-category {
 
 #Home ul.list-movie>li div.title-in {
   position: relative;
-  width: 187px;
 
   /* height: max-content; */
   padding-top: 10px;
@@ -2160,7 +2184,7 @@ ul.movie-category {
   color: #ffff;
   position: absolute;
   transform: translate(22%, 50%);
-  top: -400px;
+  top: -470px;
   width: 40%;
 
 }
@@ -2269,40 +2293,42 @@ ul.movie-category {
     font-size: 10px;
     color: #ffff;
     position: absolute;
-    transform: translate(35%, 335%);
-    top: -400px;
+    transform: translate(23%, 335%);
+    top: -555px;
     width: 70%;
+    text-align: center;
   }
 
   #HEAD .slider-text-top {
-    font-size: 10px;
+    font-size: 6px;
     color: #ffff;
     position: absolute;
-    transform: translate(35%, 55%);
+    transform: translate(20%, 55%);
     top: -175px;
     width: 70%;
+    text-align: center;
   }
 
   #HEAD .slider-button-play {
-    width: 50px;
-    height: 40px;
-    left: 65px;
-    top: -65px;
+    width: 35px;
+    height: 30px;
+    left: 123px;
+    top: -35px;
 
   }
 
   #HEAD .slider-button {
-    width: 90px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     background-color: #fa4238;
     color: white;
     position: absolute;
     transform: translate(50%, 50%);
-    left: 95px;
-    top: -65px;
+    left: 140px;
+    top: -35px;
     border: none;
-    font-size: 24px;
-  }
+    font-size: 16px;
+}
 
 
 
@@ -2311,9 +2337,10 @@ ul.movie-category {
   #HEAD .bar .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
+    border-radius: 19px;
   }
 
   #HEAD .change .bar1 {
@@ -2351,7 +2378,7 @@ ul.movie-category {
   }
 
   #HEAD .bar .topnav a {
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -2382,8 +2409,33 @@ ul.movie-category {
   #HEAD .bar-style {
     position: absolute;
   }
-}
+  #HEAD .bar .topnav .share-icon > a {
+    font-size: 24px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 5px 2px;
+    padding-left: 11px;
 
+  }
+}
+#HEAD img.slider {
+  height: 166px;
+  width: 260px;
+  background-size: contain;
+  background-image: url(../img/SCI-FI.jpg);
+}
+#HEAD img.slider-2 {
+  height: 166px;
+  width: 260px;
+  background-size: contain;
+  background-image: url(../img/Action-Adventure.jpg);
+}
+#HEAD img.slider-3 {
+  height: 166px;
+  width: 260px;
+  background-size: contain;
+  background-image: url(../img/All-movie.jpg);
+}
 #HEAD .disnav {
   display: NONE;
 }

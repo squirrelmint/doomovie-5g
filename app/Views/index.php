@@ -1,6 +1,6 @@
 <section class="movie-content text-center">
-  <div id="Home" class="container">
-    <div  class="row">
+  <div id="Home" class="container ">
+    <div  class="row movie-content">
       <div class="col-md-12 col-lg-12 ">
         <h1>DOOMOVIE-5G</h1>
         <h2>หนังใหม่ ดูหนังออนไลน์ ครบเรื่องทุกรสที่ DOOMOVIE-5G</h2>

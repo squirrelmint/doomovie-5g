@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,7 +73,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
+<style>
+  .share-icon{
+    display: flex;
+  }
+  </style>
 
 
 <body>
@@ -88,7 +93,14 @@
         <div class="topnav">
           <div id="myLinks">
             <ul class="navbar-nav m-auto disnav">
-
+            <li class="share-icon">
+                <a href="#" class="fa fa-twitter sa"></a>
+                <a href="#" class="fa fa-facebook sa"></a>
+                <span a href="#" class='fa-stack fa-lg sa' style="transform: translateY(10px);">
+                  <i a href="#" class='fas fa-circle fa-stack-2x'></i>
+                  <i a href="#" class='fab fa-line fa-stack-1x fa-inverse'></i>
+                </span>
+              </li>
               <li class="nav-item <?= $chk_act['home'] ?>">
                 <a class="nav-link" href="<?php echo base_url() ?>">หน้าหลัก <span class="sr-only">(current)</span></a>
               </li>
@@ -194,18 +206,18 @@
 
         <div class="swiper-slide">
           <div class="slider-area">
-            <div class="slider-text-top">Iron man</div>
-            <div class="slider-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quasi fuga pariatur in doloribus neque voluptates laboriosam, magnam vel dolorem deleniti voluptatum libero deserunt nam, sunt aperiam molestiae illum necessitatibus.
+            <div class="slider-text-top">IT</div>
+            <div class="slider-text"> เป็นภาพยนตร์สยองขวัญเหนือธรรมชาติของประเทศสหรัฐอเมริกา ออกฉายเมื่อ ค.ศ. 2017 ดัดแปลงจากนวนิยายเรื่อง อิท ของสตีเฟน คิง ซึ่งตีพิมพ์เมื่อ ค.ศ. 1986 ผลิตโดย นิวไลน์ซินีมา​, KatzSmith Productions, Lin Pictures และ Vertigo Entertainment จัดจำหน่ายโดย Warner Bros. Pictures ผู้ผลิตวางแผนให้เป็นภาคแรกจากสองภาค เล่าเรื่องของเด็กเจ็ดคนในเมืองเดอร์รี รัฐเมน ที่ต้องต่อกรกับสิ่งเหนือธรรมชาติ
             </div>
             <button class="slider-button">รับชม</button>
-            <button class="slider-button-play"><i class="fas fa-caret-right" style="font-size: 34px;"></i></button>
+            <button class="slider-button-play"><i class="fas fa-caret-right" style=""></i></button>
             <!-- <h2 class="title-slider">Iron man</h2> -->
 
           </div>
-          <img src="<?= $document_root ?>img_slide/1.jpg">
+          <img src="<?= $document_root ?>img_slide/5.jpg">
         </div>
 
-        <!-- <div class="swiper-slide">
+        <div class="swiper-slide">
             <div class="slider-area">
               <h2 class="title-slider">ALIEN</h2>
             </div>
@@ -217,7 +229,7 @@
               <h2 class="title-slider">Joker</h2>
             </div>
             <img src="<?= $document_root ?>img_slide/3.jpg">
-          </div> -->
+          </div>
 
       </div>
       <!-- If we need pagination -->
@@ -236,9 +248,9 @@
     <div class="swiper-container" id="swp1">
       <ul class="swiper-wrapper" id="swp1">
         <li class="swiper-slide" id="swp1">
-          <div>SCI-FI</div>
-          <div>All MOVIES</div>
-          <div>ACTION ADVENTURE</div>
+          <div> <img class="slider"></div>
+          <div> <img class="slider-2"></div>
+          <div> <img class="slider-3"></div>
         </li>
         <li class="swiper-slide" id="swp1">Slide 2</li>
         <li class="swiper-slide" id="swp1">Slide 3</li>
@@ -247,7 +259,9 @@
       </ul>
       <!-- Add Pagination -->
       <div class="swiper-pagination" id="swp1"></div>
-
+      <!-- <div  id="swp1" class="swiper-button-prev " ></div>
+      <div  id="swp1" class="swiper-button-next " ></div> -->
+   
     </div>
 
   </header>

@@ -4,7 +4,8 @@
       <div class="row">
         <div class="col-md-12">
           <a class="navbar-brand" href="<?php echo base_url() ?>">
-            <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> ">
+            <!-- <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> "> -->
+            <img class="logo">
           </a>
           <p><strong>ดูหนังฟรี</strong> โหลดไวแบบไม่มีสะดุดภาพคมชัดระดับ HD FullHD 4k ครบทุกเรื่องทุกรสดูได้ทุกที่ทุกเวลาทั้งบนมือถือ แท็บเล็ต เครื่องคอมพิวเตอร์ ระบบปฏิบัติการ Android และ IOS ดูอนิเมะใหม่ให้รับชมอีกมากมาย สามารถรับชมฟรีได้ทุกที่ทุกเวลาตลอด 24 ชั่วโมง</p>
         </div>
