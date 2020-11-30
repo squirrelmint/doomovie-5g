@@ -246,21 +246,21 @@
 
     <!-- Swiper -->
     <div class="swiper-container" id="swp1">
-      <ul class="swiper-wrapper" id="swp1">
-        <li class="swiper-slide" id="swp1">
+      <ul class="swiper-wrapper" >
+        <li class="swiper-slide">
           <div> <img class="slider"></div>
           <div> <img class="slider-2"></div>
           <div> <img class="slider-3"></div>
         </li>
-        <li class="swiper-slide" id="swp1">Slide 2</li>
-        <li class="swiper-slide" id="swp1">Slide 3</li>
-        <li class="swiper-slide" id="swp1">Slide 4</li>
+        <li class="swiper-slide" >Slide 2</li>
+        <li class="swiper-slide" >Slide 3</li>
+        <li class="swiper-slide" >Slide 4</li>
 
       </ul>
       <!-- Add Pagination -->
-      <div class="swiper-pagination" id="swp1"></div>
-      <!-- <div  id="swp1" class="swiper-button-prev " ></div>
-      <div  id="swp1" class="swiper-button-next " ></div> -->
+      <div class="swiper-pagination"></div>
+      <div  class="swiper-button-prev" ></div>
+      <div  class="swiper-button-next" ></div>
    
     </div>
 
@@ -268,7 +268,7 @@
 
 
   <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('#swp1', {
       pagination: '.swiper-pagination',
       slidesPerView: 'auto',
       paginationClickable: true,
