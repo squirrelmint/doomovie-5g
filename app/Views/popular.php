@@ -71,7 +71,17 @@
                       $score = substr($val['movie_ratescore'],0);
                     }
                 ?>
-                <span class="movie-score"><i class="fas fa-star"></i> <?=$score?></span>
+                             <div class="movie-score">
+              <div class="star"><i class="fas fa-star"></i>
+              <i class="fas fa-star "></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+                <div>
+                 <h1 class="Zoom-size">4K </h1>
+                </div>
+              </div>
                 <?php } ?>
 
                 <!-- <h1 class="movie-title-en">Tesla (2020)</h1> -->

@@ -205,9 +205,19 @@
                   $score = substr($interest['movie_ratescore'], 0);
                 }
               ?>
-                <div class="movie-score">
+                <!-- <div class="movie-score">
                   <i class="fas fa-star"></i> <?= $score ?>
+                </div> -->
+                <div class="movie-score">
+              <div class="star"><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+                <div>
+                 <h1 class="Zoom-size">4K </h1>
                 </div>
+              </div>
               <?php } ?>
 
             </div>

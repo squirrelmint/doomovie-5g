@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,10 +73,10 @@
 </head>
 
 <style>
-  .share-icon{
+  .share-icon {
     display: flex;
   }
-  </style>
+</style>
 
 
 <body>
@@ -93,7 +92,7 @@
         <div class="topnav">
           <div id="myLinks">
             <ul class="navbar-nav m-auto disnav">
-            <li class="share-icon">
+              <li class="share-icon">
                 <a href="#" class="fa fa-twitter sa"></a>
                 <a href="#" class="fa fa-facebook sa"></a>
                 <span a href="#" class='fa-stack fa-lg sa' style="transform: translateY(10px);">
@@ -207,7 +206,14 @@
         <div class="swiper-slide">
           <div class="slider-area">
             <div class="slider-text-top">IT</div>
-            <div class="slider-text"> เป็นภาพยนตร์สยองขวัญเหนือธรรมชาติของประเทศสหรัฐอเมริกา ออกฉายเมื่อ ค.ศ. 2017 ดัดแปลงจากนวนิยายเรื่อง อิท ของสตีเฟน คิง ซึ่งตีพิมพ์เมื่อ ค.ศ. 1986 ผลิตโดย นิวไลน์ซินีมา​, KatzSmith Productions, Lin Pictures และ Vertigo Entertainment จัดจำหน่ายโดย Warner Bros. Pictures ผู้ผลิตวางแผนให้เป็นภาคแรกจากสองภาค เล่าเรื่องของเด็กเจ็ดคนในเมืองเดอร์รี รัฐเมน ที่ต้องต่อกรกับสิ่งเหนือธรรมชาติ
+
+            <div class="slider-text">
+              <div class=""> <i class="fas fa-calendar-alt"></i> 2019
+              <i class="fas fa-clock"></i> 55MIN 
+              <i class="fas fa-star"></i> 7.5/10 
+              <i class="fab fa-imdb" style="color:#e3b629"></i>
+              </div>
+              เป็นภาพยนตร์สยองขวัญเหนือธรรมชาติของประเทศสหรัฐอเมริกา ออกฉายเมื่อ ค.ศ. 2017 ดัดแปลงจากนวนิยายเรื่อง อิท ของสตีเฟน คิง ซึ่งตีพิมพ์เมื่อ ค.ศ. 1986 ผลิตโดย นิวไลน์ซินีมา​, KatzSmith Productions, Lin Pictures และ Vertigo Entertainment จัดจำหน่ายโดย Warner Bros. Pictures ผู้ผลิตวางแผนให้เป็นภาคแรกจากสองภาค เล่าเรื่องของเด็กเจ็ดคนในเมืองเดอร์รี รัฐเมน ที่ต้องต่อกรกับสิ่งเหนือธรรมชาติ
             </div>
             <button class="slider-button">รับชม</button>
             <button class="slider-button-play"><i class="fas fa-caret-right" style=""></i></button>
@@ -246,9 +252,9 @@
 
     <!-- Swiper -->
     <div class="swiper-container" id="swp1">
-      <ul class="swiper-wrapper" >
+      <ul class="swiper-wrapper">
         <li class="swiper-slide">
-          <div> <img class="slider"></div>  
+          <div> <img class="slider"></div>
           <div> <img class="slider-2"></div>
           <div> <img class="slider-3"></div>
         </li>
@@ -259,9 +265,9 @@
       </ul>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
-      <div  class="swiper-button-prev" ></div> 
-      <div  class="swiper-button-next" ></div>
-   
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
     </div>
 
   </header>

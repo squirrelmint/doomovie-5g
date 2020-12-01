@@ -326,6 +326,8 @@ img.logo {
   height:650px;
 }
 
+
+
 #HomeSlide .swiper-slide .slider-overlay{
   position: absolute;
   opacity: 1;
@@ -774,10 +776,13 @@ ul.list-movie > li div.title-in .movie-score {
   font-size: 14px;
   color: #fff;
   margin-left: auto;
-  text-align: right;
+  text-align: left;
   font-style: italic;
   padding: 0 5px;
   padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1743,7 +1748,7 @@ ul.movie-category {
   transform: translateX(-75px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 993px) {
   #CAT .cat-type {
     transform: translateX(-30px);
   }
@@ -1786,7 +1791,7 @@ ul.movie-category {
 
 #VIDEO .movie-score {
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
 }
 
@@ -1970,7 +1975,7 @@ ul.movie-category {
   transform: translateX(180%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 993px) {
   #VIDEO .detail-size {
     width: 100%;
     text-align: center;
@@ -2109,8 +2114,19 @@ ul.movie-category {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
 }
+.zoom-hd{
+  color: #af3b82; 
+  transform: translate(-3px,-10px);
+}
+.Zoom-size{
+  color: #af3b82; 
+}
+.star{
+  line-height: 50px;
+  color: #fff376;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 993px) {
   #Home .border-size {
     transform: translate(0%);
     left: 0px;
@@ -2191,8 +2207,8 @@ ul.movie-category {
   color: #ffff;
   position: absolute;
   transform: translate(22%, 50%);
-  top: -470px;
-  width: 40%;
+  top: -460px;
+  width: 50%;
 
 }
 
@@ -2204,7 +2220,7 @@ ul.movie-category {
   position: absolute;
   transform: translate(50%, 50%);
   left: 280px;
-  top: -135px;
+  top: -80px;
   border: none;
   font-size: 24px;
 }
@@ -2217,7 +2233,7 @@ ul.movie-category {
   position: absolute;
   transform: translate(50%, 50%);
   left: 250px;
-  top: -135px;
+  top: -80px;
   border: none;
 }
 
@@ -2280,9 +2296,9 @@ ul.movie-category {
   position: absolute;
   transform: translate(22%, 50%);
   top: -400px;
-  width: 40%;
+  width: 50%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 993px) {
   #HEAD .fa-style {
     display: none;
   }
@@ -2310,8 +2326,9 @@ ul.movie-category {
     font-size: 10px;
     color: #ffff;
     position: absolute;
-    transform: translate(23%, 335%);
-    top: -555px;
+    transform: translate(0%, 0%);
+    top: -150px;
+    left: 51px;
     width: 70%;
     text-align: center;
   }
