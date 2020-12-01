@@ -76,6 +76,19 @@
   .share-icon {
     display: flex;
   }
+  .fourk-right {
+    position: relative;
+  }
+  .fourk-right > button {
+    position: absolute;
+    right:0;
+    background: transparent;
+    border: none;
+    font-size: 60px;
+    color: gold;
+    transform: translateY(-50%);
+
+  }
 </style>
 
 
@@ -101,7 +114,7 @@
                 </span>
               </li>
               <li class="nav-item <?= $chk_act['home'] ?>">
-                <a class="nav-link" href="<?php echo base_url() ?>">หน้าหลัก <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url() ?>">หน้าหลัก </a>
               </li>
               <!-- <li class="nav-item <?= $chk_act['poppular'] ?>">
               <a class="nav-link" href="<?php echo base_url('popular') ?>">TopIMDB</a>
@@ -154,7 +167,7 @@
                 $value = '';
               }
               ?>
-              <div class="fa-style" style="">
+              <div class="fa-style">
                 <a href="#" class="fa fa-twitter sa"></a>
                 <a href="#" class="fa fa-facebook sa"></a>
 
@@ -164,11 +177,12 @@
                 </span>
 
               </div>
-              <input id="movie-search" class="movie-search ml-auto" placeholder="ค้นหา หนังออนไลน์" value="<?php echo $value ?>">
+              <input id="movie-search" class="search" placeholder="ค้นหา หนังออนไลน์" value="<?php echo $value ?>">
 
               <div class="input-group-btn">
                 <div class="btn-group" role="group">
-                  <button type="submit" class="movie-search-button"><i class="fas fa-search"></i></button>
+                  <button type="submit" class="search-icon"
+                  ><i class="fas fa-search"></i></button>
                 </div>
               </div>
             </div>
@@ -209,16 +223,18 @@
 
             <div class="slider-text">
               <div class=""> <i class="fas fa-calendar-alt"></i> 2019
-              <i class="fas fa-clock"></i> 55MIN 
-              <i class="fas fa-star"></i> 7.5/10 
-              <i class="fab fa-imdb" style="color:#e3b629"></i>
+                <i class="fas fa-clock"></i> 55MIN
+                <i class="fas fa-star"></i> 7.5/10
+                <i class="fab fa-imdb" style="color:#e3b629"></i>
               </div>
               เป็นภาพยนตร์สยองขวัญเหนือธรรมชาติของประเทศสหรัฐอเมริกา ออกฉายเมื่อ ค.ศ. 2017 ดัดแปลงจากนวนิยายเรื่อง อิท ของสตีเฟน คิง ซึ่งตีพิมพ์เมื่อ ค.ศ. 1986 ผลิตโดย นิวไลน์ซินีมา​, KatzSmith Productions, Lin Pictures และ Vertigo Entertainment จัดจำหน่ายโดย Warner Bros. Pictures ผู้ผลิตวางแผนให้เป็นภาคแรกจากสองภาค เล่าเรื่องของเด็กเจ็ดคนในเมืองเดอร์รี รัฐเมน ที่ต้องต่อกรกับสิ่งเหนือธรรมชาติ
             </div>
             <button class="slider-button">รับชม</button>
-            <button class="slider-button-play"><i class="fas fa-caret-right" style=""></i></button>
+            <button class="slider-button-play"><i class="fas fa-caret-right"></i></button>
             <!-- <h2 class="title-slider">Iron man</h2> -->
-
+            <div class="fourk-right d-flex">
+              <button>4K</button>
+            </div>
           </div>
           <img src="<?= $document_root ?>img_slide/5.jpg">
         </div>

@@ -1,10 +1,10 @@
 
   <!-- Icons Grid -->
   <section>
-    <div  id ="CAT"class="container">
+    <div  id ="CAT" class="container">
       <div class="cat-font">
         <div class="">หมวดหมู่ </div>
-        <div class="cat-type"> ประเภทหนัง</div>
+        <div class="cat-type"> </div>
       </div>
       <div class="row">
 

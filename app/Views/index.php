@@ -32,6 +32,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -58,6 +59,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -107,6 +109,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -132,6 +135,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -165,6 +169,7 @@
             <div class="movie-box">
               <a onclick="goView('20033', 'Rogue-%282020%29' , 'mo')" alt="Rogue (2020)" title="Rogue (2020)">
                 <img src="https://api.vip-streaming.com/images/movie/61jGwtibL5if52Fmrkn9EuJF6Zdm7Jyaa.jpg" alt="Rogue (2020)" title="Rogue (2020)">
+              
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">0 <i class="fas fa-eye"></i></span>
@@ -173,6 +178,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -199,6 +205,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -223,6 +230,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -248,6 +256,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -273,6 +282,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -314,6 +324,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -340,6 +351,8 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
+              
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -364,6 +377,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -389,6 +403,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -414,6 +429,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -455,9 +471,12 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
+                <a>พากษ์ไทย</a>
               </h2>
+          
               <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
+              <div class="star">
+                <i class="fas fa-star"></i>
               <i class="fas fa-star "></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -505,6 +524,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -530,6 +550,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>
@@ -555,6 +576,7 @@
             <div class="title-in">
               <h2>
                 <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
+                <a>พากษ์ไทย</a>
               </h2>
               <div class="movie-score">
               <div class="star"><i class="fas fa-star"></i>

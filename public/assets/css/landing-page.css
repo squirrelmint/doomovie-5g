@@ -222,7 +222,18 @@ img.logo {
 #movie-formsearch {
   width: 200px;
 }
-
+.search-icon{
+  width: 100%;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  margin-top: 10px;
+}
+.search{
+  width: 80%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  margin-top: 10px;
+}
 .movie-search {
   width: 41px;
   background: #fff;
@@ -351,13 +362,13 @@ img.logo {
 }
 
 #HomeSlide .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-  top: 50%;
+  top: 60%;
   right: 2rem;
 }
 
 #HomeSlide .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-  top: 50%;
-  right: 2rem;
+  top: 60%;
+  right: 1rem;
 }
 
 #HomeSlide .swiper-button-next::after, .swiper-button-prev::after {
@@ -390,7 +401,7 @@ img.logo {
 @media (min-width: 769px) and (max-width: 1024px) {
 
   img.logo {
-    height: 80px;
+    height: 58px;
   }
 
   .navbar-expand-lg .navbar-collapse {
@@ -429,7 +440,7 @@ img.logo {
 @media (min-width: 481px) and (max-width: 768px) {
 
   img.logo {
-    height: 80px;
+    height: 58px;
   }
 
   .navbar-expand-lg .navbar-collapse {
@@ -703,6 +714,7 @@ ul.list-movie > li .movie-box .movie-view {
   background: black;
   font-weight: 700;
   border-bottom-right-radius: 50px;
+  border-top-left-radius: 30px;
 }
 
 ul.list-movie > li .movie-box .movie-quality {
@@ -747,13 +759,15 @@ ul.list-movie > li div.title-in {
 }
 
 ul.list-movie > li div.title-in h2 {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  text-align: left;
+
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 100;
-  text-align: center;
+  text-align: left;
+  display: flex;
+    flex-direction: column;
 }
 
 ul.list-movie > li div.title-in h2:hover {
@@ -822,6 +836,9 @@ ul.list-movie > li div.title-in .movie-score {
   ul.list-movie > li div.title-in h2 {
     font-size: 12px;
   }
+  ul.list-movie > li div.title-in .movie-score{
+    font-size: 10px;
+  }
 
 }
 
@@ -844,6 +861,7 @@ ul.list-movie > li div.title-in .movie-score {
   ul.list-movie > li div.title-in h2 {
     font-size: 12px;
   }
+ 
   
 }
 
@@ -1221,7 +1239,7 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
 #movie-detail {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 92%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -1783,6 +1801,9 @@ ul.movie-category {
   border-top-left-radius: 20px;
 }
 /* Video */
+#VIDEO .font-cate {
+  color:#f02636;
+}
 #VIDEO #movie-player {
   width: 100%;
   min-height: 0px;
@@ -1840,8 +1861,8 @@ ul.movie-category {
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  transform: translateX(14%);
-  width: 70%;
+  transform: translateX(0%);
+  width: 85%;
 }
 #VIDEO .dropdown {
   position: relative;
@@ -1972,7 +1993,7 @@ ul.movie-category {
 }
 
 #VIDEO .report-size {
-  transform: translateX(180%);
+  transform: translateX(100%);
 }
 
 @media only screen and (max-width: 993px) {
@@ -2024,7 +2045,7 @@ ul.movie-category {
   #VIDEO .display-style-PC {
     display: block;
     transform: translate(0%, 0%);
-    right: -163px;
+    right: -130px;
     top: 14px;
 
   }
@@ -2152,6 +2173,7 @@ ul.movie-category {
   #Home ul.list-movie>li {
 
     padding-left: 0px;
+    padding: 3px;
   }
 
   #Home .movie-content {
@@ -2207,7 +2229,7 @@ ul.movie-category {
   color: #ffff;
   position: absolute;
   transform: translate(22%, 50%);
-  top: -460px;
+  top: -490px;
   width: 50%;
 
 }
@@ -2295,10 +2317,19 @@ ul.movie-category {
   color: #ffff;
   position: absolute;
   transform: translate(22%, 50%);
-  top: -400px;
+  top: -470px;
   width: 50%;
 }
 @media only screen and (max-width: 993px) {
+  #movie-menu .navbar-nav .active>.nav-link {
+    color: white;
+    position: relative;
+}
+#movie-menu .navbar-nav .active>.nav-link {
+  color: white;
+  background-color: #f02636;
+}
+
   #HEAD .fa-style {
     display: none;
   }
@@ -2319,7 +2350,7 @@ ul.movie-category {
     width: auto;
     min-width: 100%;
     height: 100%;
-    transform: translate(-0%, 30%);
+    transform: translate(-0%, 0%);
   }
 
   #HEAD .slider-text {
@@ -2412,7 +2443,7 @@ ul.movie-category {
   }
 
   #HEAD .bar .topnav a {
-    color: black;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -2434,6 +2465,7 @@ ul.movie-category {
     height: max-content;
     background-color: #333;
     position: absolute;
+    transform: translateY(14%);
   }
 
   #HEAD .disnav-pc {
@@ -2449,7 +2481,7 @@ ul.movie-category {
     text-align: center;
     margin: 5px 2px;
     padding-left: 11px;
-
+    color: black;
   }
 }
 #HEAD img.slider {
