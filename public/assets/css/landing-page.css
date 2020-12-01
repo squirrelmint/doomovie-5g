@@ -698,6 +698,7 @@ ul.list-movie > li .movie-box a img {
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
+  border-radius: 14px 10px 10px 10px;
 }
 
 ul.list-movie > li .movie-box a img:hover {
@@ -724,33 +725,9 @@ ul.list-movie > li .movie-box .movie-view {
   border-top-left-radius: 30px;
 }
 
-ul.list-movie > li .movie-box .movie-quality {
-  position: absolute;
-  width: 60px;
-  right: 0;
-  padding: 0 4px 0 8px;
-  color: #fff;
-  background: #333333;
-  font-size: 12px;
-  font-weight: 700;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  text-transform: uppercase;
-}
 
-ul.list-movie > li .movie-box .movie-sound {
-  position: absolute;
-  width: max-content;
-  right: 0;
-  top: 20px;
-  padding: 0 4px 0 8px;
-  color: #fff;
-  background: #676767;
-  font-size: 12px;
-  font-weight: 100;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
+
+
 
 ul.list-movie > li div.title-in {
   position: relative;
@@ -918,28 +895,9 @@ ul.list-popular > li span.movie-category {
   padding: 10px 15px;
 }
 
-ul.list-popular > li div.movie-quality-area {
-  top: 0;
-  right: 0;
-  position: absolute;
-  z-index: 1;
-  width: 15%;
-  padding: 10px 15px;
-}
 
-ul.list-popular > li div.movie-quality-area span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  background-color: #333333;
-  border-radius: 50px;
-  margin-bottom: .3rem;
-}
 
-ul.list-popular > li div.movie-quality-area span:first-child {
-  font-weight: 700;
-}
+
 
 ul.list-popular > li span.movie-view {
   right: 0;
@@ -1007,9 +965,6 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
     font-size: 26px;
   }
 
-  ul.list-popular > li div.movie-quality-area {
-    width: 35%;
-  }
 
   ul.list-popular > li span.movie-view {
     width: 32%;
@@ -1033,9 +988,7 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
     font-size: 18px;
   }
 
-  ul.list-popular > li div.movie-quality-area {
-    width: 35%;
-  }
+  
 
   ul.list-popular > li span.movie-view {
     width: 32%;
@@ -1836,7 +1789,7 @@ ul.movie-category {
 #VIDEO #movie-player .movie-header {
   display: flex;
   padding: 10px;
-  width: 117%;
+  width: 100%;
 }
 
 #VIDEO #movie-video #movie-detail .movie-card-detail {
@@ -2138,10 +2091,7 @@ ul.movie-category {
   border-radius: 10px;
 }
 
-#Home ul.list-movie>li .movie-box .movie-sound {
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-}
+
 .zoom-hd{
   color: #af3b82; 
   transform: translate(-3px,-10px);

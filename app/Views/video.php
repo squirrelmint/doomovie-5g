@@ -167,7 +167,7 @@
               if (!empty($interest['movie_quality'])) {
                 $sound_style = '';
               ?>
-                <span class="movie-quality"><?= $interest['movie_quality'] ?></span>
+    
               <?php } ?>
 
               <?php
@@ -189,7 +189,6 @@
                   $sound = 'ซับไทย';
                 }
               ?>
-                <span class="movie-sound" <?= $sound_style ?>><?= $sound ?></span>
               <?php } ?>
 
             </div>
