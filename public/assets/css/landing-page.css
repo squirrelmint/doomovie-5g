@@ -43,6 +43,9 @@ header.masthead .overlay {
 header.masthead h1 {
   font-size: 2rem;
 }
+.fa-eye{
+color: #ffdc14;
+}
 
 @media (min-width: 768px) {
   header.masthead {
@@ -798,13 +801,13 @@ ul.list-movie > li div.title-in .movie-score {
 @media (min-width: 321px) and (max-width: 480px) { 
 
   ul.list-movie > li .movie-box {
-    width: 187px;
+    width: 160px;
     height: 250px;
   }
 
   ul.list-movie > li div.title-in {
-    width: 187px;
-    padding-bottom: 10px;
+    width: 160px;
+   
   }
 
   ul.list-movie > li div.title-in .movie-score span.score {
@@ -1832,9 +1835,9 @@ ul.movie-category {
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  transform: translateX(-7%);
+  transform: translateX(14%);
+  width: 70%;
 }
-
 #VIDEO .dropdown {
   position: relative;
   display: inline-block;
@@ -2015,6 +2018,10 @@ ul.movie-category {
 
   #VIDEO .display-style-PC {
     display: block;
+    transform: translate(0%, 0%);
+    right: -163px;
+    top: 14px;
+
   }
 
   #VIDEO .style-share {
@@ -2128,7 +2135,7 @@ ul.movie-category {
 
   #Home ul.list-movie>li {
 
-    padding-left: 2px;
+    padding-left: 0px;
   }
 
   #Home .movie-content {

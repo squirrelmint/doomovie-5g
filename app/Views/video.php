@@ -106,8 +106,6 @@
     <!-- สำหรับ series -->
   </div>
   <div id="VIDEO">
-  <button id="VIDEO" class="movie-btn-report display-style-PC" onclick="get_Report()" style="position: absolute;
-    transform: translateX(325%);">แจ้งหนังเสีย</button>
   <div id="VIDEO" class="display-style-PC style-share">
     <a href="#" id="video" class="fas fa-share-alt share-size vl"></a>
     <a></a>
@@ -118,7 +116,8 @@
       <i a="" id="video" href="#" class="fas fa-circle fa-stack-2x"></i>
       <i a="" id="video" href="#" class="fab fa-line fa-stack-1x fa-inverse"></i>
     </span>
-
+    <button id="VIDEO" class="movie-btn-report display-style-PC" onclick="get_Report()" style="position: absolute;
+">แจ้งหนังเสีย</button>
   </div>
   </div>
   </div>

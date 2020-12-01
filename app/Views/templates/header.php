@@ -217,7 +217,7 @@
           <img src="<?= $document_root ?>img_slide/5.jpg">
         </div>
 
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
             <div class="slider-area">
               <h2 class="title-slider">ALIEN</h2>
             </div>
@@ -229,7 +229,7 @@
               <h2 class="title-slider">Joker</h2>
             </div>
             <img src="<?= $document_root ?>img_slide/3.jpg">
-          </div>
+          </div> -->
 
       </div>
       <!-- If we need pagination -->
@@ -248,18 +248,18 @@
     <div class="swiper-container" id="swp1">
       <ul class="swiper-wrapper" >
         <li class="swiper-slide">
-          <div> <img class="slider"></div>
+          <div> <img class="slider"></div>  
           <div> <img class="slider-2"></div>
           <div> <img class="slider-3"></div>
         </li>
-        <li class="swiper-slide" >Slide 2</li>
+        <!-- <li class="swiper-slide" >Slide 2</li>
         <li class="swiper-slide" >Slide 3</li>
-        <li class="swiper-slide" >Slide 4</li>
+        <li class="swiper-slide" >Slide 4</li> -->
 
       </ul>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
-      <div  class="swiper-button-prev" ></div>
+      <div  class="swiper-button-prev" ></div> 
       <div  class="swiper-button-next" ></div>
    
     </div>
