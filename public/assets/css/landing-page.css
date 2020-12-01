@@ -2287,7 +2287,8 @@ ul.movie-category {
     width: 55%;
   }
 
-  #HEAD #swp1.swiper-slide {
+  #HEAD #swp1.swiper-container {
+    
     display: none;
   }
 
