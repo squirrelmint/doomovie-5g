@@ -34,6 +34,7 @@
         <div class="movie-card-detail">
           <h1 class="movie-title">Rogue (2020) </h1>
           <div class="movie-score">
+          <i class="fas fa-eye"></i> 16
             <i class="fas fa-calendar-day"></i> 2019
             <i class="fas fa-clock"></i> 55min
             <i class="fas fa-star"></i> 3.8

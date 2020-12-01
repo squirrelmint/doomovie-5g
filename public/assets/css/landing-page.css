@@ -43,10 +43,17 @@ header.masthead .overlay {
 header.masthead h1 {
   font-size: 2rem;
 }
+#VIDEO .fa-eye{
+  color: #fff;
+  }
 .fa-eye{
 color: #ffdc14;
 }
-
+img {
+  width: 30%;
+  vertical-align: middle;
+  border-style: none;
+}
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -1052,7 +1059,7 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
 }
 
 #movie-player .movie-header .movie-trailer { 
-  width: 70%;
+  width: 100%;
 }
 
 #movie-player .movie-header .movie-trailer iframe { 
@@ -1861,8 +1868,8 @@ ul.movie-category {
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  transform: translateX(0%);
-  width: 85%;
+  transform: translateX(-10%);
+  width: 100%;
 }
 #VIDEO .dropdown {
   position: relative;
@@ -2030,7 +2037,7 @@ ul.movie-category {
   #VIDEO #movie-player .movie-header {
     display: flex;
     padding: 10px;
-    width: 100%;
+    width: 110%;
   }
 
   #VIDEO .player-size {
