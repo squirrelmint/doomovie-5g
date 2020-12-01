@@ -27,7 +27,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+            
             </div>
             <div class="title-in">
               <h2>
@@ -54,7 +54,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+        
             </div>
             <div class="title-in">
               <h2>
@@ -130,7 +130,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+   
             </div>
             <div class="title-in">
               <h2>
@@ -173,7 +173,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+ 
             </div>
             <div class="title-in">
               <h2>
@@ -200,7 +200,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+
             </div>
             <div class="title-in">
               <h2>
@@ -277,7 +277,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+             
             </div>
             <div class="title-in">
               <h2>
@@ -319,7 +319,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+    
             </div>
             <div class="title-in">
               <h2>
@@ -346,7 +346,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+    
             </div>
             <div class="title-in">
               <h2>
@@ -424,7 +424,6 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
             </div>
             <div class="title-in">
               <h2>
@@ -466,7 +465,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+              
             </div>
             <div class="title-in">
               <h2>
@@ -495,7 +494,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+             
             </div>
             <div class="title-in">
               <h2>
@@ -571,7 +570,7 @@
               </a>
               <div class="movie-overlay"></div>
               <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-              <span class="movie-sound" style="top:0;">พากษ์ไทย</span>
+         
             </div>
             <div class="title-in">
               <h2>
@@ -648,7 +647,7 @@
                 if (!empty($val['movie_quality'])) {
                   $sound_style = '';
                 ?>
-                <span class="movie-quality"><?= $val['movie_quality'] ?></span>
+    
                 <?php } ?>
 
                 <?php
@@ -670,7 +669,7 @@
                     $sound = 'ซับไทย';
                   }
                 ?>
-                <span class="movie-sound" <?= $sound_style ?>><?= $sound ?></span>
+                
                 <?php } ?>
 
               </div>
