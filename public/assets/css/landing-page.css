@@ -2305,7 +2305,7 @@ ul.movie-category {
   padding-left: 57px;
 }
 #HEAD .slider-text-top{
-  font-size: 20px;
+  font-size: 30px;
   color: #ffff;
   position: absolute;
   transform: translate(22%, 50%);
@@ -2350,18 +2350,18 @@ ul.movie-category {
     color: #ffff;
     position: absolute;
     transform: translate(0%, 0%);
-    top: -160px;
+    top: -175px;
     left: 51px;
     width: 70%;
     text-align: center;
   }
 
   #HEAD .slider-text-top {
-    font-size: 6px;
+    font-size: 12px;
     color: #ffff;
     position: absolute;
     transform: translate(20%, 55%);
-    top: -175px;
+    top: -190px;
     width: 70%;
     text-align: center;
   }
