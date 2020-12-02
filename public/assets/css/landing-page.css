@@ -50,7 +50,7 @@ header.masthead h1 {
 color: #ffdc14;
 }
 img {
-  width: 30%;
+  width: 25%;
   vertical-align: middle;
   border-style: none;
 }
@@ -234,6 +234,7 @@ img.logo {
   border-radius: 0rem 10px 10px 0rem;
   border: none;
   margin-top: 10px;
+  background-color: white;
 }
 .search{
   width: 80%;
@@ -771,7 +772,7 @@ ul.list-movie > li div.title-in h2 a:hover {
 
 ul.list-movie > li div.title-in .movie-score {
   width: 100%;
-  font-size: 14px;
+  font-size: 10px;
   color: #fff;
   margin-left: auto;
   text-align: left;
@@ -1976,18 +1977,15 @@ ul.movie-category {
   #VIDEO .movie-score-top-MB {
     display: block;
     color: white;
-    padding: 0px 0px 0px 18px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
     font-size: 18px;
     position: absolute;
   }
   #VIDEO .movie-social {
-    text-align: left;
-    display: flex;
-    justify-content: space-evenly;
-    transform: translateX(0%);
+    transform: translate(29%,0%);
     width: 100%;
-    left: -8px;
+
   }
   #VIDEO .detail-size {
     width: 100%;
@@ -2038,8 +2036,8 @@ ul.movie-category {
   #VIDEO .display-style-PC {
     display: block;
     transform: translate(0%, 0%);
-    right: -185px;
     top: 14px;
+    right: -120px;
 
   }
 
@@ -2205,7 +2203,7 @@ ul.movie-category {
 #HEAD .fab,
 #HEAD .far {
   line-height: 30px;
-  font-size: 15px;
+  font-size: 30px;
   color: black
 }
 
