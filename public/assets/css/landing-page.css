@@ -111,7 +111,7 @@ img {
 
 .testimonials .testimonial-item img {
   max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0rem 5px 5px 0rem #adb5bd;
 }
 
 .call-to-action {
@@ -231,13 +231,13 @@ img.logo {
 }
 .search-icon{
   width: 100%;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0rem 10px 10px 0rem;
   border: none;
   margin-top: 10px;
 }
 .search{
   width: 80%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0rem 0rem 10px;
   border: none;
   margin-top: 10px;
 }
@@ -658,7 +658,7 @@ ul.list-movie {
   flex-wrap: wrap;
   margin: auto;
   margin-top: 1rem;
-  padding-left: 0px;
+  padding-left: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -738,7 +738,7 @@ ul.list-movie > li div.title-in {
   padding-bottom: 10px;
   bottom: 0;
   background-color: #02a6cc;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0rem 0rem 10px 10px;
   margin-bottom: 20px;
 }
 
@@ -856,7 +856,7 @@ ul.list-popular {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
-  padding-left: 0px;
+  padding-left: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1231,7 +1231,7 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0rem 0rem 0re, 1rem;
 }
 
 #movie-video #movie-detail .movie-card-detail .movie-title {
@@ -1766,7 +1766,7 @@ ul.movie-category {
 }
 #VIDEO #movie-player {
   width: 100%;
-  min-height: 0px;
+  min-height: 0rem;
   margin-top: 1rem;
 }
 
@@ -1775,12 +1775,24 @@ ul.movie-category {
   padding: 10px;
   text-align: left;
 }
+#VIDEO .movie-score-top-PC {
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
+}
+#VIDEO .movie-score-top-MB {
+ display: none;
+}
 
 #VIDEO .cat-type {
   color: white;
   text-align: left;
 }
 
+#VIDEO .cat-type .font-a-style{
+  color:#f02636;
+}
 #VIDEO a:not([href]) {
   color: #fff;
   text-decoration: none;
@@ -1788,7 +1800,7 @@ ul.movie-category {
 
 #VIDEO #movie-player .movie-header {
   display: flex;
-  padding: 10px;
+  padding: 0px 0px 0px 10px;
   width: 100%;
 }
 
@@ -1817,11 +1829,12 @@ ul.movie-category {
 }
 
 #VIDEO .movie-social {
-
+  position: relative;
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  transform: translateX(-10%);
+  transform: translateX(0);
+  left: -120px;
   width: 100%;
 }
 #VIDEO .dropdown {
@@ -1860,7 +1873,7 @@ ul.movie-category {
 
   color: #f22536;
   font-size: 35px;
-  padding: 6px 13px 0px 9px;
+  padding: 6px 13px 0rem 9px;
 }
 
 #VIDEO #video.fa-twitter {
@@ -1924,7 +1937,7 @@ ul.movie-category {
   background-color: #f22536;
   width: 83%;
   transform: translateX(10%);
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 30px 30px 0rem 0rem;
   display: flex;
   justify-content: center;
 }
@@ -1934,7 +1947,7 @@ ul.movie-category {
 }
 
 #VIDEO .movie-detail-all {
-  margin: 0px 170px 0px 100px;
+  margin: 0rem 170px 0rem 100px;
 }
 
 #VIDEO .player-size {
@@ -1948,7 +1961,7 @@ ul.movie-category {
 
 #VIDEO .style-share {
   background-color: white;
-  border-radius: 25px 0px 0px 25px;
+  border-radius: 25px 0rem 0rem 25px;
   transform: translateX(50%);
 }
 
@@ -1957,10 +1970,29 @@ ul.movie-category {
 }
 
 @media only screen and (max-width: 993px) {
+  #VIDEO .movie-score-top-PC {
+    display: none;
+  }
+  #VIDEO .movie-score-top-MB {
+    display: block;
+    color: white;
+    padding: 0px 0px 0px 18px;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+  }
+  #VIDEO .movie-social {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateX(0%);
+    width: 100%;
+    left: -8px;
+  }
   #VIDEO .detail-size {
     width: 100%;
     text-align: center;
-    padding: 0px 10px 0px 10px;
+    padding: 0rem 0px 0rem 30px;
   }
 
   #VIDEO #movie-video #movie-detail .movie-card-detail .movie-title {
@@ -1975,7 +2007,7 @@ ul.movie-category {
   }
 
   #VIDEO .movie-detail-all {
-    margin: 0px 0px 0px 0px;
+    margin: 0rem 0rem 0rem 0rem;
   }
 
   #VIDEO #movie-video #movie-detail .movie-card-detail .movie-title {
@@ -1989,8 +2021,9 @@ ul.movie-category {
 
   #VIDEO #movie-player .movie-header {
     display: flex;
-    padding: 10px;
-    width: 110%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
+    width: 100%;
   }
 
   #VIDEO .player-size {
@@ -2005,15 +2038,15 @@ ul.movie-category {
   #VIDEO .display-style-PC {
     display: block;
     transform: translate(0%, 0%);
-    right: -130px;
+    right: -185px;
     top: 14px;
 
   }
 
   #VIDEO .style-share {
     background-color: white;
-    border-radius: 0px 25px 25px 0px;
-    transform: translateX(0%);
+    border-radius: 0rem 25px 25px 0rem;
+    transform: translateX(3%);
     width: 208px;
   }
 
@@ -2022,6 +2055,7 @@ ul.movie-category {
   }
 
 }
+
 
 /* HOME */
 #Home .content-size {
@@ -2034,7 +2068,7 @@ ul.movie-category {
 
 #Home .border-size {
   background: #f22536;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0rem 0rem;
   width: 95%;
   position: relative;
   /* transform: translate(50%);
@@ -2066,7 +2100,7 @@ ul.movie-category {
   padding-bottom: 10px;
   bottom: 0;
   background-color: #02a6cc;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0rem 0rem 10px 10px;
   margin-bottom: 20px;
 }
 
@@ -2082,8 +2116,8 @@ ul.movie-category {
   background: #ffff;
 
   padding-top: 20px;
-  border-radius: 0px 0px 20px 20px;
-  margin-top: 0px;
+  border-radius: 0rem 0rem 20px 20px;
+  margin-top: 0rem;
   margin-bottom: 20px;
 }
 
@@ -2107,7 +2141,7 @@ ul.movie-category {
 @media only screen and (max-width: 993px) {
   #Home .border-size {
     transform: translate(0%);
-    left: 0px;
+    left: 0rem;
     height: max-content;
     width: 100%;
   }
@@ -2129,7 +2163,7 @@ ul.movie-category {
 
   #Home ul.list-movie>li {
 
-    padding-left: 0px;
+    padding-left: 0rem;
     padding: 3px;
   }
 
@@ -2171,7 +2205,7 @@ ul.movie-category {
 #HEAD .fab,
 #HEAD .far {
   line-height: 30px;
-  font-size: 30px;
+  font-size: 15px;
   color: black
 }
 
@@ -2315,7 +2349,7 @@ ul.movie-category {
     color: #ffff;
     position: absolute;
     transform: translate(0%, 0%);
-    top: -150px;
+    top: -160px;
     left: 51px;
     width: 70%;
     text-align: center;
@@ -2461,4 +2495,20 @@ ul.movie-category {
 }
 #HEAD .disnav {
   display: NONE;
+}
+.share-icon {
+  display: flex;
+}
+.fourk-right {
+  position: relative;
+}
+.fourk-right > button {
+  position: absolute;
+  right:0;
+  background: transparent;
+  border: none;
+  font-size: 60px;
+  color: #deb600;
+  transform: translateY(-50%);
+
 }

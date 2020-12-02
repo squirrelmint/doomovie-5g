@@ -72,24 +72,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<style>
-  .share-icon {
-    display: flex;
-  }
-  .fourk-right {
-    position: relative;
-  }
-  .fourk-right > button {
-    position: absolute;
-    right:0;
-    background: transparent;
-    border: none;
-    font-size: 60px;
-    color: gold;
-    transform: translateY(-50%);
 
-  }
-</style>
 
 
 <body>

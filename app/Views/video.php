@@ -1,4 +1,7 @@
+<style>
 
+
+  </style>
 <section id="movie-banners" class="text-center">
   <div>
     <div class="container">
@@ -33,8 +36,14 @@
       <div class="detail-size">
         <div class="movie-card-detail">
           <h1 class="movie-title">Rogue (2020) </h1>
-          <div class="movie-score">
+          <div class="movie-score-top-PC">
           <i class="fas fa-eye"></i> 16
+          </div>
+         
+          <div class="movie-score">
+          <div class="movie-score-top-MB" >
+          <i class="fas fa-eye"></i> 16
+          </div>
             <i class="fas fa-calendar-day"></i> 2019
             <i class="fas fa-clock"></i> 55min
             <i class="fas fa-star"></i> 3.8
@@ -47,8 +56,8 @@
               เมแกนฟ็อกซ์ (แฟรนไชส์ ​​Transformers) รับมือกับบทบาทใหม่ที่น่าตื่นเต้นในฐานะทหารรับจ้างผู้แข็งแกร่งในการต่อสู้ในนิยายแอ็คชั่นสุดระทึกนี้ ในฐานะหัวหน้าทีมโอฮาราเธอเป็นผู้นำกลุ่มทหารที่มีชีวิตชีวาในภารกิจที่กล้าหาญนั่นคือช่วยเหลือตัวประกันจากผู้จับกุมในแอฟริกาห่างไกล แต่เมื่อภารกิจดำเนินไปอย่างผิดปกติและทีมต้องติดอยู่ทีมของโอฮาร่าต้องเผชิญหน้ากับกลุ่มกบฏที่เลือดไหลและโหดร้าย – และฝูงสิงโตที่ดุร้ายและโกรธเกรี้ยวที่พวกเขาพบเจอ เชิญรับชมหนังภาพยนตร์ เรื่องนี้ได้เลย </p>
           </div>
           <div class="cat-type">
-            <p>ประเภท : <a style="color:#f02636;">หนังฝรั่ง</a> | <a  style="color:#f02636;">สยองขวัญ</a> | <a  style="color:#f02636;">ลึกลับ</a> | <a  style="color:#f02636;">ระทึกขวัญ</a></p>
-            <p> คุณภาพ : <a  style="color:#f02636;">4K<a></p>
+            <p>ประเภท : <a class="font-a-style">หนังฝรั่ง</a> | <a  class="font-a-style">สยองขวัญ</a> | <a  class="font-a-style">ลึกลับ</a> | <a  class="font-a-style">ระทึกขวัญ</a></p>
+            <p> คุณภาพ : <a  class="font-a-style">4K<a></p>
           </div>
         </div>
       </div>
@@ -70,7 +79,7 @@
 
     <div class="movie-social">
       <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn movie-btn-report">ระดับความชัด <i class="fas fa-caret-down"></i></button>
+        <button onclick="myFunctiontree()" class="dropbtn movie-btn-report">ระดับความชัด <i class="fas fa-caret-down"></i></button>
         <div id="myDropdown" class="dropdown-content show">
           <a href="#">4k</a>
           <a href="#">1080p</a>
@@ -159,7 +168,7 @@
                 $view = $interest['movie_view'];
               }
               ?>
-              <span class="movie-view"><?= $view ?> <i class="fas fa-eye"></i></span>
+              <span class="movie-view"><i class="fas fa-eye"></i> <?= $view ?> </span>
 
 
               <?php
@@ -300,21 +309,7 @@
   }
 
 
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
+  
 </script>
 
 
