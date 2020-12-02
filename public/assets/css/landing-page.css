@@ -794,6 +794,7 @@ ul.list-movie > li div.title-in .movie-score {
   ul.list-movie > li div.title-in {
     width: 180px;
     padding-bottom: 10px;
+
   }
 
   ul.list-movie > li div.title-in h2 {
@@ -811,7 +812,7 @@ ul.list-movie > li div.title-in .movie-score {
 
   ul.list-movie > li div.title-in {
     width: 160px;
-   
+   padding-left: 5px;
   }
 
   ul.list-movie > li div.title-in .movie-score span.score {
@@ -1773,12 +1774,11 @@ ul.movie-category {
 
 #VIDEO .movie-score {
   color: white;
-  padding: 10px;
   text-align: left;
 }
 #VIDEO .movie-score-top-PC {
   color: white;
-  padding: 10px;
+
   text-align: left;
   font-size: 30px;
 }
@@ -2000,7 +2000,7 @@ ul.movie-category {
 
   #VIDEO .movie-score {
     text-align: center;
-    padding: 8px;
+
 
   }
 
@@ -2100,6 +2100,7 @@ ul.movie-category {
   background-color: #02a6cc;
   border-radius: 0rem 0rem 10px 10px;
   margin-bottom: 20px;
+  padding-left: 5px;
 }
 
 #Home ul.list-movie>li {

@@ -218,7 +218,9 @@
                   <i class="fas fa-star"></i> <?= $score ?>
                 </div> -->
                 <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
+              <div class="star">
+              <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
