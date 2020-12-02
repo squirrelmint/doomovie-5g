@@ -81,7 +81,7 @@
   <section>
     <div class="container style-box">
       <div id="movie-contract" class="row">
-        <div class="line-bottom">x</div>
+        <div class="line-bottom"></div>
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link active " data-toggle="pill" href="#request">ขอหนัง</a>

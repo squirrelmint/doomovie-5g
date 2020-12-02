@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: url(../img/Doomovie-5G-BG.jpg)  center center;
+  background: url(../img/Doomovie-5G-BG.jpg) center center;
   width: 100%;
 }
 
@@ -734,13 +734,14 @@ ul.list-movie > li div.title-in {
   position: relative;
   width: 190px;
   height: 100%;
-
+  padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   bottom: 0;
   background-color: #02a6cc;
   border-radius: 0rem 0rem 10px 10px;
   margin-bottom: 20px;
+  padding-left: 5px;
 }
 
 ul.list-movie > li div.title-in h2 {
@@ -794,7 +795,7 @@ ul.list-movie > li div.title-in .movie-score {
   ul.list-movie > li div.title-in {
     width: 180px;
     padding-bottom: 10px;
-
+    padding-left: 5px;
   }
 
   ul.list-movie > li div.title-in h2 {
@@ -838,6 +839,7 @@ ul.list-movie > li div.title-in .movie-score {
   ul.list-movie > li div.title-in {
     width: 160px;
     padding-bottom: 10px;
+    padding-left: 5px;
   }
 
   ul.list-movie > li div.title-in .movie-score span.score {
