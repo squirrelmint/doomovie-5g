@@ -318,9 +318,8 @@ img.logo {
 
 #movie-formsearch .btn-group {
   position: absolute;
-  height: 100%;
+  
 }
-
 #movie-formsearch .movie-search-button i {
   color: black;
 }
