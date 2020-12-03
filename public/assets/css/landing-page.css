@@ -240,6 +240,7 @@ img.logo {
   border: none;
   margin-top: 10px;
   background-color: white;
+  padding-left: 15px;
 }
 .search{
   width: 80%;
