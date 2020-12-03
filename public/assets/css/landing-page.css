@@ -240,13 +240,14 @@ img.logo {
   border: none;
   margin-top: 10px;
   background-color: white;
-  padding-left: 15px;
+  
 }
 .search{
   width: 80%;
   border-radius: 10px 0rem 0rem 10px;
   border: none;
   margin-top: 10px;
+  padding-left: 15px;
 }
 .movie-search {
   width: 41px;
