@@ -2,6 +2,7 @@
 
 
   </style>
+  <body>
 <section id="movie-banners" class="text-center">
   <div>
     <div class="container">
@@ -458,3 +459,4 @@
 
 
 <!-- อันเก่า -->
+            </body>

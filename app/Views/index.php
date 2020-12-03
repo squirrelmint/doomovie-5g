@@ -1,3 +1,5 @@
+
+<body>
 <section class="movie-content text-center">
   <div id="Home" class="container ">
     <div  class="row movie-content">
@@ -727,7 +729,7 @@
     </div>
   </div>
 </section>
-
+    </body>  
 <script>
   $(document).ready(function() {
     ""

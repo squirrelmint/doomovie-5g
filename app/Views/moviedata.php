@@ -1,4 +1,4 @@
-
+<body>
 <?PHP
 foreach ($list['list'] as $val) {
 ?>
@@ -79,3 +79,4 @@ foreach ($list['list'] as $val) {
     </div>
   </li>
 <?php  } ?>
+        </body>

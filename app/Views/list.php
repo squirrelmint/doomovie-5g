@@ -1,5 +1,6 @@
 
 <!-- Icons Grid -->
+<body>
 <section class="text-center">
   <div id="TOP"class="container">
     <div id="movie-list" class="row">
@@ -155,7 +156,7 @@
     </div>
   </div>
 </section>
-
+      </body>
 <script>
   $(document).ready(function() {
     var track_click = 1; //track user click on "load more" button, righ now it is 0 click
