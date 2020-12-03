@@ -108,7 +108,7 @@
               <li class="nav-item <?= $chk_act['category'] ?>">
                 <a class="nav-link" href="<?php echo base_url('category') ?>">หมวดหมู่/ประเภทหนัง</a>
               </li>
-              <li class="nav-item <?= $chk_act['contract'] ?>">
+              <li class="nav-item ">
                 <a class="nav-link" href="<?php echo base_url('contract') ?>">ติดต่อ/โฆษนา</a>
               </li>
             </ul>
@@ -136,7 +136,7 @@
             <li class="nav-item <?= $chk_act['category'] ?>">
               <a class="nav-link" href="<?php echo base_url('category') ?>">หมวดหมู่/ประเภทหนัง</a>
             </li>
-            <li class="nav-item <?= $chk_act['contract'] ?>" >
+            <li class="nav-item " >
               <a class="nav-link" href="<?php echo base_url('contract') ?>">ติดต่อ/โฆษนา </a>
             </li>
           </ul>
