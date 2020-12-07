@@ -88,7 +88,7 @@
                 <h1  class="movie-title-th"><?= $val['movie_thname'] ?></h1>
               </div>
 
-              <img src="<?= $path_silde . $val['slide_img'];?>">
+              <img src="<?= $path_slide . $val['slide_img']?>">
 
             </a>
           </li>

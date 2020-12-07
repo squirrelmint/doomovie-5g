@@ -35,6 +35,11 @@ class Home extends BaseController
 
 	public function index()
 	{
+		$catereq = [6, 7, 28];
+		foreach ($catereq as $val) {
+			$get_list_video_bycate[] = $this->VideoModel->get_list_video_bycate($this->branch, $val);
+		}
+
 		$setting = $this->VideoModel->get_setting($this->branch);
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
@@ -57,13 +62,18 @@ class Home extends BaseController
 			'setting' => $setting
 		];
 
-		$list = $this->VideoModel->get_list_video($this->branch);
+		$list = $this->VideoModel->get_list_video($this->branch ,'',1, 10);
 		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$list_popular = $this->VideoModel->get_list_popular($this->branch);
+		// echo'<pre>'.print_r($list_popular , true).'</pre>'; die;
 
 		$body_data = [
+			'path_slide' => $this->path_slide,
 			'url_loadmore' => base_url('moviedata'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
+			'list_popular' => $list_popular,
+			'get_list_video_bycate' => $get_list_video_bycate,
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
 		];
@@ -129,6 +139,7 @@ class Home extends BaseController
 			'feildplay' => 'movie_thmain',
 			'index' => 'a',
 		];
+		// echo'<pre>'.print_r($videodata , true).'</pre>'; die;
 
 		echo view('templates/header.php', $header_data);
 		echo view('video.php', $body_data);
@@ -196,6 +207,7 @@ class Home extends BaseController
 			'index' => $index,
 			'videinterest' => $videinterest
 		];
+	// echo'<pre>'.print_r($series , true).'</pre>'; die;
 
 		echo view('templates/header.php', $header_data);
 		echo view('video.php', $body_data);
@@ -308,6 +320,44 @@ class Home extends BaseController
 
 		echo view('templates/header.php', $header_data);
 		echo view('popular.php');
+		echo view('templates/footer.php');
+	}
+
+	public function topimdb() 
+	{
+		$setting = $this->VideoModel->get_setting($this->branch);
+		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
+		
+		$list_category = $this->VideoModel->get_category($this->branch);
+		$list = $this->VideoModel->get_list_topimdb($this->branch);
+		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+
+
+		$chk_act = [
+			'home' => '',
+			'poppular' => 'active',
+			'newmovie' => '',
+			'netflix' => '',
+			'category' => '',
+			'contract' => ''
+		];
+
+		$header_data = [
+			'document_root' => $this->document_root,
+			'path_thumbnail' => $this->path_thumbnail,			
+			'path_setting' => $this->path_setting,
+			'url_loadmore' => 'a',
+			'setting' => $setting,
+			'chk_act' => $chk_act,
+			'list_category' => $list_category,
+			'list' => $list,
+			'adsbottom' => $adsbottom,
+			'path_ads' => $this->path_ads,
+			
+		];
+	
+		echo view('templates/header.php', $header_data);
+		echo view('topimdb.php');
 		echo view('templates/footer.php');
 	}
 

@@ -1,735 +1,362 @@
-
 <body>
-<section class="movie-content text-center">
-  <div id="Home" class="container ">
-    <div  class="row movie-content">
-      <div class="col-md-12 col-lg-12 ">
-        <h1>DOOMOVIE-5G</h1>
-        <h2>หนังใหม่ ดูหนังออนไลน์ ครบเรื่องทุกรสที่ DOOMOVIE-5G</h2>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Icons Grid -->
-<section id="Home" class="text-center">
-  <div id="Home" class="container">
-    <div class="border-size">
-      <div class="border-size-font">ดูหนังออนไลน์</div>
-      <div class=""></div>
-      <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
-    </div>
-    <div class="content-size">
-      <div class="">
-        <ul id="list-movie" class="list-movie">
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20033', 'Rogue-%282020%29' , 'mo')" alt="Rogue (2020)" title="Rogue (2020)">
-                <img src="https://api.vip-streaming.com/images/movie/61jGwtibL5if52Fmrkn9EuJF6Zdm7Jyaa.jpg" alt="Rogue (2020)" title="Rogue (2020)">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-            
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">4K </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2' , 'mo')" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-                <img src="https://api.vip-streaming.com/images/movie/pY6efatwoDksWZH5MmVYnjaalzK2EHiaa.jpg" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-        
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800' , 'mo')" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-                <img src="https://api.vip-streaming.com/images/movie/w0WPsbKLSDyD0SLZRHoXjXsTP2i9bCTaa.jpg" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">31 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2' , 'mo')" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-                <img src="https://api.vip-streaming.com/images/movie/SyKLhq37ZdbToKhqAh3BMx56AmKXYGdaa.jpg" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">10 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2' , 'mo')" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-                <img src="https://api.vip-streaming.com/images/movie/c7LjyVYFhbOqFNkk5659psPgNvyYkrBaa.jpg" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-   
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div id="Home" class="container">
-    <div class="border-size">
-      <div class="border-size-font">ดูหนัง 4K</div>
-      <div class=""></div>
-      <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
-    </div>
-    <div class="content-size">
-      <div class="">
-        <ul id="list-movie" class="list-movie">
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20033', 'Rogue-%282020%29' , 'mo')" alt="Rogue (2020)" title="Rogue (2020)">
-                <img src="https://api.vip-streaming.com/images/movie/61jGwtibL5if52Fmrkn9EuJF6Zdm7Jyaa.jpg" alt="Rogue (2020)" title="Rogue (2020)">
-              
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">0 <i class="fas fa-eye"></i></span>
- 
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">4K </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2' , 'mo')" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-                <img src="https://api.vip-streaming.com/images/movie/pY6efatwoDksWZH5MmVYnjaalzK2EHiaa.jpg" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800' , 'mo')" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-                <img src="https://api.vip-streaming.com/images/movie/w0WPsbKLSDyD0SLZRHoXjXsTP2i9bCTaa.jpg" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">31 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2' , 'mo')" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-                <img src="https://api.vip-streaming.com/images/movie/SyKLhq37ZdbToKhqAh3BMx56AmKXYGdaa.jpg" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">10 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2' , 'mo')" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-                <img src="https://api.vip-streaming.com/images/movie/c7LjyVYFhbOqFNkk5659psPgNvyYkrBaa.jpg" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-             
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div id="Home" class="container">
-    <div class="border-size">
-      <div class="border-size-font">ดูหนังชนโรง</div>
-      <div class=""></div>
-      <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
-    </div>
-    <div class="content-size">
-      <div class="">
-        <ul id="list-movie" class="list-movie">
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20033', 'Rogue-%282020%29' , 'mo')" alt="Rogue (2020)" title="Rogue (2020)">
-                <img src="https://api.vip-streaming.com/images/movie/61jGwtibL5if52Fmrkn9EuJF6Zdm7Jyaa.jpg" alt="Rogue (2020)" title="Rogue (2020)">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-    
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">4K </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2' , 'mo')" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-                <img src="https://api.vip-streaming.com/images/movie/pY6efatwoDksWZH5MmVYnjaalzK2EHiaa.jpg" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-    
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
-              
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800' , 'mo')" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-                <img src="https://api.vip-streaming.com/images/movie/w0WPsbKLSDyD0SLZRHoXjXsTP2i9bCTaa.jpg" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">31 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2' , 'mo')" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-                <img src="https://api.vip-streaming.com/images/movie/SyKLhq37ZdbToKhqAh3BMx56AmKXYGdaa.jpg" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">10 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2' , 'mo')" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-                <img src="https://api.vip-streaming.com/images/movie/c7LjyVYFhbOqFNkk5659psPgNvyYkrBaa.jpg" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div id="Home" class="container">
-    <div class="border-size">
-      <div class="border-size-font">Netflix</div>
-      <div class=""></div>
-      <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
-    </div>
-    <div class="content-size">
-      <div class="">
-        <ul id="list-movie" class="list-movie">
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20033', 'Rogue-%282020%29' , 'mo')" alt="Rogue (2020)" title="Rogue (2020)">
-                <img src="https://api.vip-streaming.com/images/movie/61jGwtibL5if52Fmrkn9EuJF6Zdm7Jyaa.jpg" alt="Rogue (2020)" title="Rogue (2020)">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">0 <i class="fas fa-eye"></i></span>
-              
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20033', 'Rogue-%282020%29', 'mo')" tabindex="-1" alt="Rogue (2020)" title="Rogue (2020)">Rogue (2020)</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-          
-              <div class="movie-score">
-              <div class="star">
-                <i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 class="Zoom-size">4K </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2' , 'mo')" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-                <img src="https://api.vip-streaming.com/images/movie/pY6efatwoDksWZH5MmVYnjaalzK2EHiaa.jpg" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">21 <i class="fas fa-eye"></i></span>
-             
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20015', 'Dragon-Rider-%282020%29-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B9%89%E0%B8%B2', 'mo')" tabindex="-1" alt="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า" title="Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า">Dragon Rider (2020) มหัศจรรย์มังกรสุดขอบฟ้า</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 class="Zoom-size">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800' , 'mo')" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-                <img src="https://api.vip-streaming.com/images/movie/w0WPsbKLSDyD0SLZRHoXjXsTP2i9bCTaa.jpg" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">31 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20016', 'The-Eight-Hundred-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A-800', 'mo')" tabindex="-1" alt="The Eight Hundred (2020) นักรบ 800" title="The Eight Hundred (2020) นักรบ 800">The Eight Hundred (2020) นักรบ 800</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 class="Zoom-size" >Zoom </h5>
-                 <h1 class="zoom-hd">HD</h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2' , 'mo')" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-                <img src="https://api.vip-streaming.com/images/movie/SyKLhq37ZdbToKhqAh3BMx56AmKXYGdaa.jpg" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">10 <i class="fas fa-eye"></i></span>
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20017', 'The-Outpost-%282020%29-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2', 'mo')" tabindex="-1" alt="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย" title="The Outpost (2020) ผ่ายุทธภูมิล้อมตาย">The Outpost (2020) ผ่ายุทธภูมิล้อมตาย</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h1 style="color: #af3b82;">HD </h1>
-                </div>
-              </div>
-          </li>
-          <li>
-            <div class="movie-box">
-              <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2' , 'mo')" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-                <img src="https://api.vip-streaming.com/images/movie/c7LjyVYFhbOqFNkk5659psPgNvyYkrBaa.jpg" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">
-              </a>
-              <div class="movie-overlay"></div>
-              <span class="movie-view">16 <i class="fas fa-eye"></i></span>
-         
-            </div>
-            <div class="title-in">
-              <h2>
-                <a onclick="goView('20018', 'Invisible-Cop-%282020%29-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B2', 'mo')" tabindex="-1" alt="Invisible Cop (2020) นักฆ่าไร้เงา" title="Invisible Cop (2020) นักฆ่าไร้เงา">Invisible Cop (2020) นักฆ่าไร้เงา</a>
-                <a>พากษ์ไทย</a>
-              </h2>
-              <div class="movie-score">
-              <div class="star"><i class="fas fa-star"></i>
-              <i class="fas fa-star "></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-             </div>
-                <div>
-                 <h5 style="color: #af3b82;">Zoom </h5>
-                 <h1 style="color: #af3b82; transform: translate(-3px,-10px);">HD </h1>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
 
 
-<!-- <section class="text-center">
-    <div class="container">
-    <div class="border-size">
-</div>
+  <!-- Slider main container -->
+  <div id="HomeSlide" class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
 
-      <div class="content-size">
-      <div class="">
+      <?php
+      foreach ($list_popular as $val) {
 
-        <ul id="list-movie" class="list-movie">
+        if (strtolower($val['movie_sound']) == 'th' || strtolower($val['movie_sound']) == 'thai') {
+          $mo_sound = 'พากษ์ไทย';
+        } else if (strtolower($val['movie_sound']) == 'eng') {
+          $mo_sound = 'พากษ์อังกฤษ';
+        } else {
+          $mo_sound = '';
+        }
 
-          <?PHP
+        if (!($val['movie_view'])) {
+          $view = 0;
+        } else if (strlen($val['movie_view']) >= 5) {
+          $view =  substr($val['movie_view'], 0, -3) . 'k';
+        } else {
+          $view = $val['movie_view'];
+        }
 
-          foreach ($list['list'] as $val) {
+
+        $url_name = urldecode(str_replace([" ", "'"], ["-", ""], $val['movie_thname']));
+      ?>
+
+
+
+        <div class="swiper-slide">
+          <div class="slider-area">
+            <div class="slider-text-top"><?= $val['movie_thname'] ?></div>
+
+            <div class="slider-text">
+              <div class=""> <i class="fas fa-calendar-alt"></i> <?= $val['movie_year'] ?>
+                <i class="fas fa-eye"></i> <?= $view ?>
+                <i class="fas fa-star"></i> <?= $val['movie_ratescore'] ?>/10
+                <i class="fab fa-imdb" style="color:#e3b629"></i>
+              </div>
+              <?= $val['movie_des'] ?>
+
+            </div>
+
+
+            <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" alt="<?= $val['movie_thname'] ?>)" tabindex="-1" title="<?= $val['movie_thname'] ?>">
+
+              <button class="slider-button">รับชม</button>
+              <button class="slider-button-play"><i class="fas fa-caret-right"></i></button>
+            </a>
+            <!-- <h2 class="title-slider">Iron man</h2> -->
+
+            <?php if ($val['movie_quality']) {
+            ?>
+              <div class="fourk-right d-flex">
+                <button><?= $val['movie_quality'] ?></button>
+              </div>
+            <?php
+            }
+            ?>
+
+
+          </div>
+          <?php if (substr($val['slide_img'], 0, 4) == 'http') {
+            $movie_picture = $val['slide_img'];
+          } else {
+            $movie_picture = $path_slide . $val['slide_img'];
+          }
           ?>
-            <li>
-
-              <div class="movie-box">
-
-                <?php if (substr($val['movie_picture'], 0, 4) == 'http') {
-                  $movie_picture = $val['movie_picture'];
-                } else {
-                  $movie_picture = $path_thumbnail . $val['movie_picture'];
-                }
-
-                $url_name = urlencode(str_replace(' ', '-', $val['movie_thname']));
-                ?>
-
-                <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>' , '<?= $val['movie_type'] ?>')" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
-                  <img src="<?= $movie_picture ?>" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
-                </a>
-
-                <div class="movie-overlay"></div>
-                <?php
-                if (!($val['movie_view'])) {
-                  $view = 0;
-                } else if (strlen($val['movie_view']) >= 5) {
-                  $view =  substr($val['movie_view'], 0, -3) . 'k';
-                } else {
-                  $view = $val['movie_view'];
-                }
-                ?>
-                <span class="movie-view"><?= $view ?> <i class="fas fa-eye"></i></span>
 
 
-                <?php
-                $sound_style = ' style="top:0;" ';
-                if (!empty($val['movie_quality'])) {
-                  $sound_style = '';
-                ?>
-    
-                <?php } ?>
+          <img src="<?= $movie_picture ?>">
 
-                <?php
-                if (!empty($val['movie_sound'])) {
-                  $sound = $val['movie_sound'];
-                  if (
-                    strtolower($val['movie_sound']) == 'th' ||
-                    strtolower($val['movie_sound']) == 'thai' ||
-                    strpos(strtolower($val['movie_sound']), 'thai') == true ||
-                    strtolower($val['movie_sound']) == 'ts'
-                  ) {
-                    $sound = 'พากษ์ไทย';
-                  } else if (strtolower($val['movie_sound']) == 'eng') {
-                    $sound = 'พากษ์อังกฤษ';
-                  } else if (
-                    strtolower($val['movie_sound']) == 'st' ||
-                    strpos(strtolower($val['movie_sound']), '(t)') == true
-                  ) {
-                    $sound = 'ซับไทย';
-                  }
-                ?>
-                
-                <?php } ?>
 
-              </div>
-              <div class="title-in">
-                <h2>
-                  <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
-                </h2>
-                
-                <?php
-                if (!empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0) {
-                  if (strpos($val['movie_ratescore'], '.')) {
-                    $score = substr($val['movie_ratescore'], 0, 3);
-                  } else {
-                    $score = substr($val['movie_ratescore'], 0);
-                  }
-                ?>
-                <div class="movie-score">
-                  <i class="fas fa-star"></i> <?= $score ?>
-                </div>
-                <?php } ?>
+        </div>
 
-              </div>
-            </li>
-          <?php  } ?>
-        </ul>
-        <button id="movie-loadmore">NEXT</button>
+
+      <?php
+      }
+      ?>
+
+
+
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+  <!-- Swiper -->
+  <div class="swiper-container" id="swp1">
+    <div class="swiper-wrapper">
+      <?php foreach ($list_category as $val) {
+        $catename = str_replace(' ', '-', $val['category_name']);
+      ?>
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <a href="<?php echo base_url() . '/category/' . $val['category_id'] . '/' . $catename ?>" title="<?= $val['category_name'] ?>">
+              <img src="<?= $document_root . 'img_cate/' . $val['category_id'] . '.jpg' ?>" alt="<?= $val['category_name'] ?>" title="<?= $val['category_name'] ?>">
+
+              <span class="movie-cate-name"><?= $val['category_name'] ?></span>
+            </a>
+          </div>
+
+        </div>
+
+      <?php
+      } ?>
+
+    </div>
+
+
+
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+
+  <section id="movie-banners" class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 ">
+        <?php
+        if (!empty($ads['pos1'])) {
+          foreach ($ads['pos1'] as $val) {
+
+            if (substr($val['ads_picture'], 0, 4) == 'http') {
+              $ads_picture = $val['ads_picture'];
+            } else {
+              $ads_picture = $path_ads . $val['ads_picture'];
+            }
+        ?>
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+              <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            </a>
+        <?php
+          }
+        }
+        ?>
       </div>
     </div>
-    </div>
-  </section> -->
+  </div>
+</section>
 
+  <section class="movie-content text-center">
+    <div id="Home" class="container ">
+      <div class="row movie-content">
+        <div class="col-md-12 col-lg-12 ">
+          <h1>DOOMOVIE-5G</h1>
+          <h2>หนังใหม่ ดูหนังออนไลน์ ครบเรื่องทุกรสที่ DOOMOVIE-5G</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Icons Grid -->
+  <section id="Home" class="text-center">
+    <div id="Home" class="container">
+      <div class="border-size">
+        <div class="border-size-font">หนังใหม่</div>
+        
+        <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
+      </div>
+      <div class="content-size">
+        <div class="">
+          <ul id="list-movie" class="list-movie">
+            <?php
+
+            foreach ($list['list'] as  $val) {
+
+              if (strtolower($val['movie_sound']) == 'th' || strtolower($val['movie_sound']) == 'thai') {
+                $mo_sound = 'พากษ์ไทย';
+              } else if (strtolower($val['movie_sound']) == 'eng') {
+                $mo_sound = 'พากษ์อังกฤษ';
+              } else {
+                $mo_sound = '';
+              }
+
+              if (!($val['movie_view'])) {
+                $view = 0;
+              } else if (strlen($val['movie_view']) >= 5) {
+                $view =  substr($val['movie_view'], 0, -3) . 'k';
+              } else {
+                $view = $val['movie_view'];
+              }
+              if (!empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0) {
+                if (strpos($val['movie_ratescore'], '.')) {
+                  $score = substr($val['movie_ratescore'], 0, 3);
+                } else {
+                  $score = substr($val['movie_ratescore'], 0);
+                }
+              }
+
+              $url_name = urldecode(str_replace([" ", "'"], ["-", ""], $val['movie_thname']));
+
+
+            ?>
+              <li>
+                <div class="movie-box">
+                  <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+                    <img src="<?= $val['movie_picture'] ?>" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+                  </a>
+                  <div class="movie-overlay"></div>
+                  <span class="movie-view"><?= $view ?> <i class="fas fa-eye"></i></span>
+
+                </div>
+                <div class="title-in">
+                  <h2>
+                    <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" aalt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
+                    <span class="movie-sound"><?= $mo_sound ?></span>
+                  </h2>
+                  <div class="movie-score">
+                    <div class="star">
+                      <i class="fas fa-star"></i><?= $score ?>
+                    </div>
+                    <div class="quality">
+                      <h5 style="color: #af3b82;"><?= $val['movie_quality'] ?></h5>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <?php
+            }
+            ?>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <?php foreach ($get_list_video_bycate as $val_cate) {
+
+    ?>
+      <div id="Home" class="container">
+        <div class="border-size">
+          <div class="border-size-font"> <?= $val_cate['list'][0]['category_name'] ?></div>
+          <div class=""></div>
+          <a class="title-link" onclick="goCate('<?= $val_cate['list'][0]['category_id'] ?>', '<?= $val_cate['list'][0]['category_name'] ?>')">
+            <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
+          </a>
+        </div>
+        <div class="content-size">
+          <div class="">
+            <ul id="list-movie" class="list-movie">
+
+              <?php
+
+              foreach ($val_cate['list']  as $key => $val) {
+                if ($key != 'total') {
+                  if (strtolower($val['movie_sound']) == 'th' || strtolower($val['movie_sound']) == 'thai') {
+                    $mo_sound = 'พากษ์ไทย';
+                  } else if (strtolower($val['movie_sound']) == 'eng') {
+                    $mo_sound = 'พากษ์อังกฤษ';
+                  } else {
+                    $mo_sound = '';
+                  }
+
+                  if (!($val['movie_view'])) {
+                    $view = 0;
+                  } else if (strlen($val['movie_view']) >= 5) {
+                    $view =  substr($val['movie_view'], 0, -3) . 'k';
+                  } else {
+                    $view = $val['movie_view'];
+                  }
+                  if (!empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0) {
+                    if (strpos($val['movie_ratescore'], '.')) {
+                      $score = substr($val['movie_ratescore'], 0, 3);
+                    } else {
+                      $score = substr($val['movie_ratescore'], 0);
+                    }
+                  }
+                  $url_name = urldecode(str_replace([" ", "'"], ["-", ""], $val['movie_thname']));
+
+              ?>
+
+                  <li>
+                    <div class="movie-box">
+                      <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" alt="<?= $val['movie_thname'] ?>)" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+                        <img src="<?= $val['movie_picture'] ?>" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+
+                      </a>
+                      <div class="movie-overlay"></div>
+                      <span class="movie-view"><?= $view ?> <i class="fas fa-eye"></i></span>
+
+                    </div>
+                    <div class="title-in">
+                      <h2>
+                        <a onclick="goView('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" alt="<?= $val['movie_thname'] ?>)" tabindex="-1" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
+                        <a><?= $mo_sound  ?></a>
+                      </h2>
+                      <div class="movie-score">
+                        <div class="star">
+                          <i class="fas fa-star"></i><?= $score ?>
+
+                        </div>
+                        <div class="quality">
+                          <h5 style="color: #af3b82;"><?= $val['movie_quality'] ?> </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              <?php
+                }
+              }
+              ?>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <?php
+    }
+
+
+    ?>
 
 <section id="movie-banners" class="text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-lg-12 ">
         <?php
-        if (!empty($adsbottom)) {
-          foreach ($adsbottom as $ads) {
-            if (substr($ads['ads_picture'], 0, 4) == 'http') {
-              $ads_picture = $ads['ads_picture'];
+        if (!empty($ads['pos2'])) {
+          foreach ($ads['pos2'] as $val) {
+
+            if (substr($val['ads_picture'], 0, 4) == 'http') {
+              $ads_picture = $val['ads_picture'];
             } else {
-              $ads_picture = $path_ads . $ads['ads_picture'];
+              $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a href="<?= $ads['ads_url'] ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
-              <img class="banners" src="<?= $ads_picture ?>" alt="<?= $ads['ads_name'] ?>" title="<?= $ads['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+              <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php
           }
         }
         ?>
-
       </div>
     </div>
   </div>
 </section>
-    </body>  
+</body>
 <script>
   $(document).ready(function() {
     ""
@@ -766,5 +393,62 @@
 
     });
 
+  });
+
+  var swiper = new Swiper('#swp1', {
+    speed: 500,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    spaceBetween: 50,
+    // mousewheel: true,
+    freeMode: false,
+    initialSlide: '1',
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+      clickable: true,
+      renderBullet: function(index, className) {
+        return '<span class="' + className + '">' + (index + 1) + '</span>';
+      },
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20
+      },
+
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 30
+      },
+
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 30
+      },
+      968: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 40
+      },
+      1200: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 50
+      }
+
+    },
   });
 </script>

@@ -1,0 +1,248 @@
+CRITICAL - 2020-12-04 00:17:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20018')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 01:19:16 --> Undefined variable: list_video_topimdb
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(73): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 01:19:37 --> Undefined variable: list_video_topimdb
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(73): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 01:19:54 --> Undefined variable: list_video_topimdb
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(73): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 01:20:23 --> Undefined variable: val
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(73): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 01:20:41 --> Undefined variable: mo_sound
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(73): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:34:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20016')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 04:19:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(470): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20018')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 04:29:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT '-30', 30' at line 8
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(145): get_pagination('SELECT\r\n       ...', '', 30, 8)
+#5 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(60): App\Models\Video_Model->get_list_video(1, '', '', 8)
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 04:30:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-8', 8' at line 8
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(147): get_pagination('SELECT\r\n       ...', '', 8, 2605)
+#5 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(60): App\Models\Video_Model->get_list_video(1, '', '', 8)
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 04:31:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-8', 8' at line 8
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(147): get_pagination('SELECT\r\n       ...', '', 8, 2605)
+#5 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(60): App\Models\Video_Model->get_list_video(1, '', '', 8)
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 04:31:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-30', 30' at line 8
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(147): get_pagination('SELECT\r\n       ...', '', 30, 2605)
+#5 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(60): App\Models\Video_Model->get_list_video(1, '', '', 8)
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 04:31:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-30', 30' at line 8
+#0 C:\xampp\htdocs\doomovie-5g\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doomovie-5g\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doomovie-5g\app\Models\Video_Model.php(147): get_pagination('SELECT\r\n       ...', '', 30, 2605)
+#5 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(60): App\Models\Video_Model->get_list_video(1, '', '', 8)
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 04:34:24 --> Too few arguments to function App\Models\Video_Model::get_list_video(), 3 passed in C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php on line 321 and exactly 4 expected
+#0 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(321): App\Models\Video_Model->get_list_video(1, 'ten', '1')
+#1 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->search('ten')
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:02:19 --> Undefined index: movie_name
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(77): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 23:16:04 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#1 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(83): view('index.php', Array)
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 23:26:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(480): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('6')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:26:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('6', '%E0%B8%AB%E0%B8...')
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:27:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(480): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('7')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:27:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('7', '%E0%B8%AB%E0%B8...')
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:27:49 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(480): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('6')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:27:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('6', '%E0%B8%AB%E0%B8...')
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:32:08 --> Undefined variable: val
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\contract.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(450): view('contract.php')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 23:32:12 --> Undefined variable: val
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\contract.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(450): view('contract.php')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 23:34:58 --> Undefined variable: val
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\contract.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(450): view('contract.php')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 23:40:44 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('list.php', Array, true)
+#1 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(417): view('list.php', Array)
+#2 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->category('6', '%E0%B8%AB%E0%B8...')
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

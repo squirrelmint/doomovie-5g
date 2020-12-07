@@ -131,7 +131,7 @@
               <a class="nav-link" href="<?php echo base_url('popular') ?>">TopIMDB</a>
             </li> -->
             <li class="nav-item <?= $chk_act['netflix'] ?>">
-              <a class="nav-link" href="<?= base_url('/category/28/Netflix-Movie') ?>">TopIMDB</a>
+              <a class="nav-link" href="<?= base_url('/topimdb') ?>">TopIMDB</a>
             </li>
             <li class="nav-item <?= $chk_act['category'] ?>">
               <a class="nav-link" href="<?php echo base_url('category') ?>">หมวดหมู่/ประเภทหนัง</a>
@@ -196,80 +196,6 @@
 
     </script>
 
-    <!-- Slider main container -->
-    <div id="HomeSlide" class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-
-        <div class="swiper-slide">
-          <div class="slider-area">
-            <div class="slider-text-top">IT</div>
-
-            <div class="slider-text">
-              <div class=""> <i class="fas fa-calendar-alt"></i> 2019
-                <i class="fas fa-clock"></i> 55MIN
-                <i class="fas fa-star"></i> 7.5/10
-                <i class="fab fa-imdb" style="color:#e3b629"></i>
-              </div>
-              เป็นภาพยนตร์สยองขวัญเหนือธรรมชาติของประเทศสหรัฐอเมริกา ออกฉายเมื่อ ค.ศ. 2017 ดัดแปลงจากนวนิยายเรื่อง อิท ของสตีเฟน คิง ซึ่งตีพิมพ์เมื่อ ค.ศ. 1986 ผลิตโดย นิวไลน์ซินีมา​, KatzSmith Productions, Lin Pictures และ Vertigo Entertainment จัดจำหน่ายโดย Warner Bros. Pictures ผู้ผลิตวางแผนให้เป็นภาคแรกจากสองภาค เล่าเรื่องของเด็กเจ็ดคนในเมืองเดอร์รี รัฐเมน ที่ต้องต่อกรกับสิ่งเหนือธรรมชาติ
-            </div>
-            <button class="slider-button">รับชม</button>
-            <button class="slider-button-play"><i class="fas fa-caret-right"></i></button>
-            <!-- <h2 class="title-slider">Iron man</h2> -->
-            <div class="fourk-right d-flex">
-              <button>4K</button>
-            </div>
-          </div>
-          <img src="<?= $document_root ?>img_slide/5.jpg">
-        </div>
-
-        <!-- <div class="swiper-slide">
-            <div class="slider-area">
-              <h2 class="title-slider">ALIEN</h2>
-            </div>
-            <img src="<?= $document_root ?>img_slide/2.jpg">
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider-area">
-              <h2 class="title-slider">Joker</h2>
-            </div>
-            <img src="<?= $document_root ?>img_slide/3.jpg">
-          </div> -->
-
-      </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-    </div>
-
-
-    <!-- Swiper -->
-    <div class="swiper-container" id="swp1">
-      <ul class="swiper-wrapper">
-        <li class="swiper-slide">
-          <div> <img class="slider"></div>
-          <div> <img class="slider-2"></div>
-          <div> <img class="slider-3"></div>
-        </li>
-        <!-- <li class="swiper-slide" >Slide 2</li>
-        <li class="swiper-slide" >Slide 3</li>
-        <li class="swiper-slide" >Slide 4</li> -->
-
-      </ul>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-    </div>
-
+   
   </header>
 

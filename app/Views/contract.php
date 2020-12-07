@@ -140,8 +140,8 @@
       <div class="row">
         <div class="col-md-12 col-lg-12 ">
           <?php
-          if (!empty($adsbottom)) {
-            foreach ($adsbottom as $ads) {
+        if (!empty($ads['pos1'])) {
+          foreach ($ads['pos1 '] as $val) {
               if (substr($val['ads_picture'], 0, 4) == 'http') {
                 $ads_picture = $ads['ads_picture'];
               } else {
