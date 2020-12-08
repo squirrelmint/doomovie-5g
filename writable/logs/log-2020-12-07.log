@@ -1,0 +1,116 @@
+CRITICAL - 2020-12-07 02:08:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(520): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('9661')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-07 02:12:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(520): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('9922')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-07 02:23:09 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\video.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('9922', 'Nocturne-%28202...')
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:23:24 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\video.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('9922', 'Nocturne-%28202...')
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:24:14 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\video.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('9922', 'Nocturne-%28202...')
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:25:21 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\video.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->video('9922', 'Nocturne-%28202...')
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:25:40 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('5', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:26:54 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('5', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:30:04 --> Undefined variable: backURL
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\templates\footer.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(85): view('templates/foote...')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:30:35 --> Undefined variable: backURL
+#0 C:\xampp\htdocs\doomovie-5g\app\Views\templates\footer.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\doomovie-5g\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doomovie-5g\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(84): view('templates/foote...')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 02:32:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(532): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('20016')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-07 05:08:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doomovie-5g\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doomovie-5g\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doomovie-5g\app\Controllers\Home.php(532): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(910): App\Controllers\Home->countView('9274')
+#4 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\doomovie-5g\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\doomovie-5g\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -99,12 +99,10 @@
               <li class="nav-item <?= $chk_act['home'] ?>">
                 <a class="nav-link" href="<?php echo base_url() ?>">หน้าหลัก </a>
               </li>
-              <!-- <li class="nav-item <?= $chk_act['poppular'] ?>">
-              <a class="nav-link" href="<?php echo base_url('popular') ?>">TopIMDB</a>
-            </li> -->
+             
               <li class="nav-item <?= $chk_act['netflix'] ?>">
-                <a class="nav-link" href="<?= base_url('/category/28/Netflix-Movie') ?>">TopIMDB</a>
-              </li>
+              <a class="nav-link" href="<?= base_url('/topimdb') ?>">TopIMDB</a>
+            </li>
               <li class="nav-item <?= $chk_act['category'] ?>">
                 <a class="nav-link" href="<?php echo base_url('category') ?>">หมวดหมู่/ประเภทหนัง</a>
               </li>
@@ -117,7 +115,11 @@
       </div>
       <div class="container logo-media">
 
-        <img class="logo">
+      <a class="navbar-brand" href="<?php echo base_url() ?>">
+
+          <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> ">
+
+        </a>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -127,9 +129,7 @@
             <li class="nav-item <?= $chk_act['home'] ?>">
               <a class="nav-link" href="<?php echo base_url() ?>">หน้าหลัก <span class="sr-only">(current)</span></a>
             </li>
-            <!-- <li class="nav-item <?= $chk_act['poppular'] ?>">
-              <a class="nav-link" href="<?php echo base_url('popular') ?>">TopIMDB</a>
-            </li> -->
+           
             <li class="nav-item <?= $chk_act['netflix'] ?>">
               <a class="nav-link" href="<?= base_url('/topimdb') ?>">TopIMDB</a>
             </li>

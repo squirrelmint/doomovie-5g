@@ -187,7 +187,7 @@ section {
 img.logo {
   height: 59px;
   width: 192px;
-  background: url(../img/LOGO-doomovie-5G.png) no-repeat center center;
+  /* background: url(../img/LOGO-doomovie-5G.png) no-repeat center center; */
 }
 
 #movie-menu .navbar-nav .nav-link {
@@ -201,7 +201,7 @@ img.logo {
 }
 
 #movie-menu .navbar-nav .active>.nav-link:after {
-  content: '•';
+  content: 'â€¢';
   font-size: 26px;
   position: absolute;
   top: 19px;
@@ -391,6 +391,8 @@ img.logo {
   z-index: 2;
 }
 
+
+
 #HomeSlide .swiper-wrapper .swiper-slide .slider-area h2.title-slider {
   width: 100%;
   color: #ffffff;
@@ -399,8 +401,114 @@ img.logo {
   text-transform: uppercase;
   text-align: center;
 }
+.slider-text {
+  font-size: 20px;
+  color: #ffff;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 10%;
+  width: 50%;
+}
+.slider-text-top {
+  font-size: 30px;
+  color: #ffff;
+  position: absolute;
+  margin-top: -23%;
+  padding: 0 2% 0 6%;
+  background-color: #eb5e5f;
+}
 
-@media (min-width: 769px) and (max-width: 1024px) {
+.slider-button-play {
+  width: 50px;
+  height: 40px;
+  background-color: #cb3526;
+  color: white;
+  position: absolute;
+  transform: translate(50%, 50%);
+  left: 250px;
+  top: -80px;
+  border: none;
+}
+
+.slider-button {
+  width: 90px;
+  height: 40px;
+  background-color: #fa4238;
+  color: white;
+  position: absolute;
+  transform: translate(50%, 50%);
+  left: 280px;
+  top: -80px;
+  border: none;
+  font-size: 24px;
+}
+@media (max-width: 1400px ){
+
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    z-index: 2;
+  }
+
+}
+@media (min-width: 769px) and (max-width: 1150px) {
+
+
+  #HEAD #swp1.swiper-container {
+    display: none;
+  }
+  #HomeSlide .swiper-slide img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    transform: translate(-0%, 0%);
+  }
+  .slider-text {
+    font-size: 17px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(0%, 0%);
+    top: -135px;
+    left: 51px;
+    width: 70%;
+    text-align: center;
+  }
+  .slider-text-top {
+    font-size: 22px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(20%, 55%);
+    top: -190px;
+    width: 70%;
+    text-align: center;
+  }
+  .slider-button-play {
+    width: 35px;
+    height: 30px;
+    left: 123px;
+    top: -35px;
+  }
+  .slider-button {
+    width: 70px;
+    height: 30px;
+    background-color: #fa4238;
+    color: white;
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 140px;
+    top: -35px;
+    border: none;
+    font-size: 16px;
+  }
+
+
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: relative;
+    width: 100%;
+    top: 90%;
+    z-index: 2;
+  }
   img.logo {
     height: 58px;
   }
@@ -422,6 +530,7 @@ img.logo {
 }
 
 @media (max-width: 768px) {
+
   .navbar-expand-lg .navbar-nav {
     position: absolute;
   }
@@ -431,6 +540,53 @@ img.logo {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+
+
+  .slider-text {
+    font-size: 16px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(0%, 0%);
+    top: -130px;
+    left: 51px;
+    width: 70%;
+    text-align: center;
+  }
+  .slider-text-top {
+    font-size: 20px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(20%, 55%);
+    top: -190px;
+    width: 70%;
+    text-align: center;
+  }
+  .slider-button-play {
+    width: 35px;
+    height: 30px;
+    left: 123px;
+    top: -35px;
+  }
+  .slider-button {
+    width: 70px;
+    height: 30px;
+    background-color: #fa4238;
+    color: white;
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 140px;
+    top: -35px;
+    border: none;
+    font-size: 16px;
+  }
+
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: relative;
+    width: 100%;
+    top: 55%;
+    z-index: 2;
+  }
+
   img.logo {
     height: 58px;
   }
@@ -472,6 +628,56 @@ img.logo {
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: absolute;
+    width: 100%;
+    bottom: 6%;
+    z-index: 2;
+  }
+
+  .slider-text {
+    font-size: 10px;
+    color: #ffff;
+    position: absolute;
+    top: -140px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .slider-text-top {
+    font-size: 12px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(20%, 55%);
+    top: -190px;
+    width: 70%;
+    text-align: center;
+  }
+  .slider-button-play {
+    width: 35px;
+    height: 30px;
+    left: 123px;
+    top: -35px;
+  }
+  .slider-button {
+    width: 70px;
+    height: 30px;
+    background-color: #fa4238;
+    color: white;
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 140px;
+    top: -35px;
+    border: none;
+    font-size: 16px;
+  }
+
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: relative;
+    width: 100%;
+    top: 90%;
+    z-index: 2;
+  }
   img.logo {
     height: 57px;
   }
@@ -509,6 +715,66 @@ img.logo {
 }
 
 @media (max-width: 320px) {
+
+  #HomeSlide .swiper-wrapper .swiper-slide .slider-area {
+    position: relative;
+    width: 100%;
+    top: 92%;
+    z-index: 2;
+  }
+  .slider-button {
+    display: none;
+}
+  .slider-button-play {
+    width: 50px;
+    height: 40px;
+    background-color: #cb3526;
+    color: white;
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 0;
+    top: -45px;
+    border: none;
+}
+
+  .slider-text {
+    font-size: 10px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(0%, 0%);
+    top: -125px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .slider-text-top {
+    font-size: 12px;
+    color: #ffff;
+    position: absolute;
+    transform: translate(15%, 70%);
+    top: -185px;
+    width: 80%;
+    text-align: center;
+  }
+  .slider-button-play {
+    width: 35px;
+    height: 30px;
+    top: -35px;
+  }
+  .slider-button {
+    width: 70px;
+    height: 30px;
+    background-color: #fa4238;
+    color: white;
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 140px;
+    top: -35px;
+    border: none;
+    font-size: 16px;
+  }
+
+
   img.logo {
     height: 40px;
   }
@@ -898,7 +1164,7 @@ ul.list-popular>li div.movie-area h1.movie-title-th {
 #movie-player {
   width: 100%;
   min-height: 650px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 #movie-player .movie-header {
@@ -1020,7 +1286,7 @@ ul.list-popular>li div.movie-area h1.movie-title-th {
 #movie-comment {
   width: 100%;
   background-color: #353535;
-  padding: 0 5%;
+  margin: 0 6%;
 }
 
 @media (min-width: 1025px) {
@@ -1473,12 +1739,19 @@ ul.list-popular>li div.movie-area h1.movie-title-th {
 }
 
 ul.movie-category {
+  padding: 20px;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
   min-width: 60%;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
+}
+ul.movie-category li a {
+  
+color: #000;
+  
+margin: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -1568,14 +1841,14 @@ ul.movie-category {
 
 /* category */
 
-#CAT .cat-font {
-  color: white;
+ .cat-font {
+  color: black;
   width: 100%;
   position: relative;
-  display: flex;
+  /* display: flex; */
   justify-content: space-evenly;
-  transform: translateX(-5%);
   font-size: 40px;
+  border-bottom: solid 2px #f22536;
 }
 
 #CAT .cat-type {
@@ -1586,7 +1859,7 @@ ul.movie-category {
   #CAT .cat-type {
     transform: translateX(-30px);
   }
-  #CAT .cat-font {
+ .cat-font {
     transform: translateX(0%);
     font-size: 23px;
   }
@@ -2040,39 +2313,10 @@ ul.movie-category {
   color: white;
 }
 
-.slider-text {
-  font-size: 20px;
-  color: #ffff;
-  position: absolute;
-  margin-top: -20%;
-  margin-left: 10%;
-  width: 50%;
-}
 
-.slider-button {
-  width: 90px;
-  height: 40px;
-  background-color: #fa4238;
-  color: white;
-  position: absolute;
-  transform: translate(50%, 50%);
-  left: 280px;
-  top: -80px;
-  border: none;
-  font-size: 24px;
-}
 
-.slider-button-play {
-  width: 50px;
-  height: 40px;
-  background-color: #cb3526;
-  color: white;
-  position: absolute;
-  transform: translate(50%, 50%);
-  left: 250px;
-  top: -80px;
-  border: none;
-}
+
+
 
 #HEAD #swp1.swiper-container {
   width: 100%;
@@ -2128,14 +2372,6 @@ ul.movie-category {
   padding-left: 57px;
 }
 
-.slider-text-top {
-  font-size: 30px;
-  color: #ffff;
-  position: absolute;
-  margin-top: -23%;
-  padding: 0 2% 0 6%;
-  background-color: #eb5e5f;
-}
 
 @media only screen and (max-width: 993px) {
   #movie-menu .navbar-nav .active>.nav-link {
@@ -2155,52 +2391,7 @@ ul.movie-category {
     left: 95px;
     width: 55%;
   }
-  #HEAD #swp1.swiper-container {
-    display: none;
-  }
-  #HomeSlide .swiper-slide img {
-    width: auto;
-    min-width: 100%;
-    height: 100%;
-    transform: translate(-0%, 0%);
-  }
-  .slider-text {
-    font-size: 10px;
-    color: #ffff;
-    position: absolute;
-    transform: translate(0%, 0%);
-    top: -175px;
-    left: 51px;
-    width: 70%;
-    text-align: center;
-  }
-  .slider-text-top {
-    font-size: 12px;
-    color: #ffff;
-    position: absolute;
-    transform: translate(20%, 55%);
-    top: -190px;
-    width: 70%;
-    text-align: center;
-  }
-  .slider-button-play {
-    width: 35px;
-    height: 30px;
-    left: 123px;
-    top: -35px;
-  }
-  .slider-button {
-    width: 70px;
-    height: 30px;
-    background-color: #fa4238;
-    color: white;
-    position: absolute;
-    transform: translate(50%, 50%);
-    left: 140px;
-    top: -35px;
-    border: none;
-    font-size: 16px;
-  }
+  
   #HEAD .bar .bar1, #HEAD .bar .bar2, #HEAD .bar .bar3 {
     width: 35px;
     height: 5px;
@@ -2315,7 +2506,7 @@ img.slider {
   right: 0;
   background: transparent;
   border: none;
-  font-size: 60px;
+  font-size: 40px;
   color: #deb600;
   transform: translateY(-50%);
 }
@@ -2437,4 +2628,12 @@ transition: transform 200ms ease, -webkit-transform 200ms ease;
 .movie-social .Report{
   left: 0;
   /* position: absolute; */
+}
+.cate-list{
+  background: #ffffff;
+  border-radius: 20px;
+}
+ul.movie-category li a:hover {
+  color: #f22536;
+  margin: 10px;
 }

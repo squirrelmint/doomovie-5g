@@ -15,7 +15,7 @@
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php
@@ -37,6 +37,8 @@
                 } else if (!empty($keyword)) {
 
                   $title = 'คุณกำลังค้นหา : ' . $keyword;
+                }else{
+                  $title = 'รายการหนัง';
                 }
                 ?>
         <h1><?= $title ?></h1>
@@ -145,7 +147,7 @@
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php

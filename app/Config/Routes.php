@@ -42,6 +42,9 @@ $routes->get('player/(:num)/(:any)', 'Home::player/$1/$2');
 $routes->get('search/(:any)', 'Home::search/$1');
 $routes->get('popular', 'Home::popular');
 $routes->get('topimdb', 'Home::topimdb');
+
+$routes->get('newmovie', 'Home::newmovie');
+
 $routes->get('category', 'Home::categorylist');
 $routes->get('category/(:num)/(:any)', 'Home::category/$1/$2');
 $routes->get('contract', 'Home::contract');

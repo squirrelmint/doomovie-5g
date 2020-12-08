@@ -8,7 +8,7 @@
       <div class="col-md-12 col-lg-12 ">
         <?php
         if (!empty($ads['pos1'])) {
-          foreach ($ads['pos1 '] as $val) {
+          foreach ($ads['pos1'] as $val) {
 
             if (substr($val['ads_picture'], 0, 4) == 'http') {
               $ads_picture = $val['ads_picture'];
@@ -16,7 +16,7 @@
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php
@@ -159,7 +159,7 @@
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php

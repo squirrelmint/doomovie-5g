@@ -139,13 +139,14 @@
         if (!empty($ads['pos1'])) {
           foreach ($ads['pos1'] as $val) {
 
+
             if (substr($val['ads_picture'], 0, 4) == 'http') {
               $ads_picture = $val['ads_picture'];
             } else {
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php
@@ -173,8 +174,9 @@
     <div id="Home" class="container">
       <div class="border-size">
         <div class="border-size-font">หนังใหม่</div>
-        
+        <a class="title-link" href="<?php echo base_url('/newmovie/') ?>">
         <div class="border-size-font-all"><i class="fas fa-grip-horizontal"></i> ดูทั้งหมด</div>
+      </a>
       </div>
       <div class="content-size">
         <div class="">
@@ -345,7 +347,7 @@
               $ads_picture = $path_ads . $val['ads_picture'];
             }
         ?>
-            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $branch ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
+            <a onclick="onClickAds(<?= $val['ads_id'] ?>, <?= $val['branch_id'] ?>)" href="<?= $val['ads_url'] ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
               <img class="banners" src="<?= $ads_picture ?>" alt="<?= $val['ads_name'] ?>" title="<?= $val['ads_name'] ?>">
             </a>
         <?php

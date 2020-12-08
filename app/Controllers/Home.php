@@ -11,7 +11,7 @@ class Home extends BaseController
 	public $path_setting = "";
 	public $path_ads = "";
 	public $branch = 1;
-	public $backURL = "https://backend.movielive88.com/";
+	public $backURL = "https://backend.doomovie-5g.com/";
 	public $document_root = '';
 	public $path_thumbnail = "https://anime.vip-streaming.com/";
 	public $path_slide = "";
@@ -26,7 +26,7 @@ class Home extends BaseController
 		$this->branch = 1;
 
 		// Directory
-		$this->path_ads = $this->backURL . 'banners/';
+		$this->path_ads = $this->backURL . 'public/banners/';
 		$this->path_setting = $this->backURL . 'setting/';
 		$this->path_slide = $this->backURL . 'img_slide/';
 
@@ -47,7 +47,7 @@ class Home extends BaseController
 
 		$chk_act = [
 			'home' => 'active',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => '',
@@ -55,6 +55,7 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'list_category' => $list_category,
@@ -62,8 +63,8 @@ class Home extends BaseController
 			'setting' => $setting
 		];
 
-		$list = $this->VideoModel->get_list_video($this->branch ,'',1, 10);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$list = $this->VideoModel->get_list_video($this->branch, '', 1, 10);
+		$ads = $this->VideoModel->get_ads($this->branch);
 		$list_popular = $this->VideoModel->get_list_popular($this->branch);
 		// echo'<pre>'.print_r($list_popular , true).'</pre>'; die;
 
@@ -74,7 +75,7 @@ class Home extends BaseController
 			'list' => $list,
 			'list_popular' => $list_popular,
 			'get_list_video_bycate' => $get_list_video_bycate,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 		];
 
@@ -90,36 +91,37 @@ class Home extends BaseController
 		$seo = $this->VideoModel->get_seo($this->branch);
 		$videodata = $this->VideoModel->get_id_video($id);
 		$videinterest = $this->VideoModel->get_video_interest($this->branch);
-		$adstop = $this->VideoModel->get_adstop($this->branch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+
+		$ads = $this->VideoModel->get_ads($this->branch);
 
 		$list_category = $this->VideoModel->get_category($this->branch);
 		$date = get_date($videodata['movie_create']);
 
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
-		if( $seo ){
+		if ($seo) {
 
-			if(substr($videodata['movie_picture'], 0, 4) == 'http'){
+			if (substr($videodata['movie_picture'], 0, 4) == 'http') {
 				$movie_picture = $videodata['movie_picture'];
-			}else{
+			} else {
 				$movie_picture = $this->path_thumbnail . $videodata['movie_picture'];
 			}
 
-			$setting['setting_img'] = $movie_picture; 
+			$setting['setting_img'] = $movie_picture;
 			$setting['setting_description'] = str_replace("{movie_description}", $videodata['movie_des'], $seo['seo_description']);
 			$setting['setting_title'] = str_replace("{movie_title} - {title_web}", $videodata['movie_thname'] . " - " . $setting['setting_title'], $seo['seo_title']);
 		}
 
 		$chk_act = [
 			'home' => 'active',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => ''
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
@@ -128,18 +130,18 @@ class Home extends BaseController
 		];
 
 		$body_data = [
-			'url_loadmore' => base_url('moviedata') ,
+			'url_loadmore' => base_url('moviedata'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'videodata' => $videodata,
 			'videinterest' => $videinterest,
-			'adstop' => $adstop,
-			'adsbottom' => $adsbottom,
+
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 			'DateEng' => $date['DateEng'],
 			'feildplay' => 'movie_thmain',
 			'index' => 'a',
 		];
-		// echo'<pre>'.print_r($videodata , true).'</pre>'; die;
+		// echo'<pre>'.print_r($ads , true).'</pre>'; die;
 
 		echo view('templates/header.php', $header_data);
 		echo view('video.php', $body_data);
@@ -153,11 +155,11 @@ class Home extends BaseController
 		$series = $this->VideoModel->get_ep_series($id);
 		$videinterest = $this->VideoModel->get_video_interest($this->branch);
 		$adstop = $this->VideoModel->get_adstop($this->branch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 
-		if($epname==''){
+		if ($epname == '') {
 			$lastep = count($series['epdata']);
-			$index = $lastep-1;
+			$index = $lastep - 1;
 		}
 
 		$list_category = $this->VideoModel->get_category($this->branch);
@@ -165,29 +167,30 @@ class Home extends BaseController
 
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
-		if( $seo ){
+		if ($seo) {
 
-			if(substr($series['movie_picture'], 0, 4) == 'http'){
+			if (substr($series['movie_picture'], 0, 4) == 'http') {
 				$movie_picture = $series['movie_picture'];
-			}else{
+			} else {
 				$movie_picture = $this->path_thumbnail . $vidserieseodata['movie_picture'];
 			}
 
-			$setting['setting_img'] = $movie_picture; 
+			$setting['setting_img'] = $movie_picture;
 			$setting['setting_description'] = str_replace("{movie_description}", $series['movie_des'], $seo['seo_description']);
 			$setting['setting_title'] = str_replace("{movie_title} - {title_web}", $series['movie_thname'] . " - " . $setting['setting_title'], $seo['seo_title']);
 		}
 
-		
+
 		$chk_act = [
 			'home' => 'active',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => ''
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
@@ -196,18 +199,18 @@ class Home extends BaseController
 		];
 
 		$body_data = [
-			'url_loadmore' => base_url('moviedata') ,
+			'url_loadmore' => base_url('moviedata'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'videodata' => $series,
-			'adstop' => $adstop,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
+
 			'path_ads' => $this->path_ads,
 			'DateEng' => $date['DateEng'],
 			'feildplay' => 'movie_thmain',
 			'index' => $index,
 			'videinterest' => $videinterest
 		];
-	// echo'<pre>'.print_r($series , true).'</pre>'; die;
+		// echo'<pre>'.print_r($series , true).'</pre>'; die;
 
 		echo view('templates/header.php', $header_data);
 		echo view('video.php', $body_data);
@@ -219,6 +222,7 @@ class Home extends BaseController
 		$list = $this->VideoModel->get_list_video($this->branch, '', $_GET['page']);
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list
@@ -232,6 +236,7 @@ class Home extends BaseController
 		$list = $this->VideoModel->get_list_video($this->branch, $_GET['keyword'], $_GET['page']);
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
@@ -245,6 +250,7 @@ class Home extends BaseController
 		$list = $this->VideoModel->get_id_video_bycategory($this->branch, $_GET['keyword'], $_GET['page']);
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
@@ -260,7 +266,7 @@ class Home extends BaseController
 
 		$chk_act = [
 			'home' => '',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => 'active',
@@ -268,6 +274,7 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
@@ -294,7 +301,7 @@ class Home extends BaseController
 
 		$list_category = $this->VideoModel->get_category($this->branch);
 		$list = $this->VideoModel->get_list_popular($this->branch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 
 		$chk_act = [
 			'home' => '',
@@ -306,6 +313,7 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_thumbnail' => $this->path_thumbnail,
 			'path_slide' => $this->path_slide,
@@ -314,7 +322,7 @@ class Home extends BaseController
 			'chk_act' => $chk_act,
 			'list_category' => $list_category,
 			'list' => $list,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 		];
 
@@ -323,19 +331,19 @@ class Home extends BaseController
 		echo view('templates/footer.php');
 	}
 
-	public function topimdb() 
+	public function topimdb()
 	{
 		$setting = $this->VideoModel->get_setting($this->branch);
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
-		
+
 		$list_category = $this->VideoModel->get_category($this->branch);
 		$list = $this->VideoModel->get_list_topimdb($this->branch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 
 
 		$chk_act = [
 			'home' => '',
-			'poppular' => 'active',
+			'topimdb' => 'active',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => '',
@@ -343,19 +351,20 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
-			'path_thumbnail' => $this->path_thumbnail,			
+			'path_thumbnail' => $this->path_thumbnail,
 			'path_setting' => $this->path_setting,
 			'url_loadmore' => 'a',
 			'setting' => $setting,
 			'chk_act' => $chk_act,
 			'list_category' => $list_category,
 			'list' => $list,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
-			
+
 		];
-	
+
 		echo view('templates/header.php', $header_data);
 		echo view('topimdb.php');
 		echo view('templates/footer.php');
@@ -366,15 +375,15 @@ class Home extends BaseController
 		$setting = $this->VideoModel->get_setting($this->branch);
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
-		$list = array() ;
-		$keyword = urldecode(str_replace("'","\'",$keyword));
+		$list = array();
+		$keyword = urldecode(str_replace("'", "\'", $keyword));
 		$list = $this->VideoModel->get_list_video($this->branch,  $keyword, '1');
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 		$list_category = $this->VideoModel->get_category($this->branch);
 
 		$chk_act = [
 			'home' => 'active',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => '',
@@ -382,6 +391,7 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
@@ -394,7 +404,49 @@ class Home extends BaseController
 			'url_loadmore' => base_url('moviedata_search'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
+			'path_ads' => $this->path_ads,
+		];
+
+		echo view('templates/header.php', $header_data);
+		echo view('list.php', $body_data);
+		echo view('templates/footer.php');
+	}
+	public function newmovie()
+	{
+		$setting = $this->VideoModel->get_setting($this->branch);
+		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
+
+		$list = array();
+	
+		$list = $this->VideoModel->get_list_video($this->branch, '', '1');
+		$ads = $this->VideoModel->get_ads($this->branch);
+		$list_category = $this->VideoModel->get_category($this->branch);
+
+		$chk_act = [
+			'home' => 'active',
+			'topimdb' => '',
+			'newmovie' => '',
+			'netflix' => '',
+			'category' => '',
+			'contract' => ''
+		];
+
+		$header_data = [
+			'backURL' => $this->backURL,
+			'document_root' => $this->document_root,
+			'path_setting' => $this->path_setting,
+			'setting' => $setting,
+			'list_category' => $list_category,
+			'keyword' => '',
+			'chk_act' => $chk_act,
+		];
+
+		$body_data = [
+			'url_loadmore' => base_url('moviedata'),
+			'path_thumbnail' => $this->path_thumbnail,
+			'list' => $list,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 		];
 
@@ -410,22 +462,22 @@ class Home extends BaseController
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
 		$list = $this->VideoModel->get_id_video_bycategory($this->branch, $cate_id, 1);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 		$list_category = $this->VideoModel->get_category($this->branch);
-		
+
 		$chk_act = [
 			'home' => '',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => 'active',
 			'contract' => ''
 		];
 
-		if($cate_id == '28'){
+		if ($cate_id == '28') {
 			$chk_act = [
 				'home' => '',
-				'poppular' => '',
+				'topimdb' => '',
 				'newmovie' => '',
 				'netflix' => 'active',
 				'category' => '',
@@ -434,6 +486,7 @@ class Home extends BaseController
 		}
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
@@ -447,7 +500,7 @@ class Home extends BaseController
 			'url_loadmore' => base_url('moviedata_category'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 			'path_ads' => $this->path_ads,
 
@@ -464,11 +517,11 @@ class Home extends BaseController
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
 		$list_category = $this->VideoModel->get_category($this->branch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$ads = $this->VideoModel->get_ads($this->branch);
 
 		$chk_act = [
 			'home' => '',
-			'poppular' => '',
+			'topimdb' => '',
 			'newmovie' => '',
 			'netflix' => '',
 			'category' => '',
@@ -476,13 +529,14 @@ class Home extends BaseController
 		];
 
 		$header_data = [
+			'backURL' => $this->backURL,
 			'document_root' => $this->document_root,
 			'path_thumbnail' => $this->path_thumbnail,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
 			'chk_act' => $chk_act,
 			'list_category' => $list_category,
-			'adsbottom' => $adsbottom,
+			'ads' => $ads,
 			'path_ads' => $this->path_ads,
 		];
 
@@ -498,10 +552,10 @@ class Home extends BaseController
 		$adsvideo = $this->VideoModel->get_adsvideolist($this->backURL);
 		// echo '<pre>' . print_r($anime, true) . '</pre>';
 		// 		die;
-		$playerUrl =$video_data['movie_thmain'];
+		$playerUrl = $video_data['movie_thmain'];
 
 		if ($index != "a") {
-			$playerUrl =$series['epdata'][$index] ;
+			$playerUrl = $series['epdata'][$index];
 		}
 
 		$data = [
@@ -538,5 +592,4 @@ class Home extends BaseController
 		// die;
 		$this->VideoModel->con_ads($this->branch, $ads_con_name, $ads_con_email, $ads_con_line, $ads_con_tel);
 	}
-	
 }
